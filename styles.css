@@ -44,7 +44,8 @@ nav {
     height: 10rem;
     position: sticky;
     top: 0;
-    width: 100%
+    width: 100%;
+    align-items: center;
 }
 
 #logo-small {
@@ -54,7 +55,7 @@ nav {
 }
 
 #nav-bar {
-
+    white-space: nowrap;
     display: flex;
     list-style: none;
     margin: 4.25rem 1rem;
@@ -72,5 +73,18 @@ nav {
 @media (max-width: 1250px) {
     #welcome-section {
         max-height: 100vw;
+    }
+
+    nav {
+        max-height: 22vw;
+    }
+
+    /* #nav-bar {
+        font-size: 5vw;
+    } */
+
+    #logo-small {
+        max-height: 20vw;
+        margin: 1rem 1rem 1rem 2.5vw;
     }
 }
