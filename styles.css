@@ -55,11 +55,11 @@ main {
 }
 .button {
     display: block;
-    margin: 0 auto 1vh auto;
+    margin: 3vh auto;
+    /* min-height: 1rem;
+    min-width: 1rem; */
     height: 2vh;
-    width: 3.5vh;
-    /* justify-content: center;
-    align-items: center; */
+    width: 3vh;
     background-color: #F19E39;
     border-radius: 4px;
 }
@@ -103,14 +103,6 @@ nav {
 }
 
 @media (max-width: 1250px) {
-    /* #welcome-section {
-        max-height: 100vw;
-    } */
-
-    /* nav {
-        max-height: 22vw;
-    } */
-
     /* #nav-bar {
         font-size: 5vw;
     } */
