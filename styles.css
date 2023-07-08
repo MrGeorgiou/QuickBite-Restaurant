@@ -4,12 +4,15 @@
 }
 
 html {
-background-color: var(--quickbite-gold);
+background-color: var(--quickbite-red);
 padding: 0;
 }
 
 body {
     margin: 0;
+    color: var(--quickbite-gold);
+    font-family: 'Baloo 2', cursive;
+    font-weight: 600;
 }
 
 main {
@@ -18,7 +21,7 @@ main {
 }
 
 #welcome-section { 
-    background-color: var(--quickbite-red);
+    background-color: var(--quickbite-gold);
     width: 100%;
     height: 100vh;
 }
@@ -49,7 +52,7 @@ main {
 
 #logo {
     font-family: 'Grenze Gotisch', cursive;
-    color: var(--quickbite-gold);
+    color: var(--quickbite-red);
     font-size: 4vh;
 
 }
@@ -60,7 +63,7 @@ main {
     min-width: 1rem; */
     height: 2vh;
     width: 3vh;
-    background-color: #F19E39;
+    background-color: var(--quickbite-red);
     border-radius: 4px;
 }
 
@@ -69,7 +72,7 @@ main {
 }
 
 nav {
-    background-color: rgba(232, 87, 77, 0.6);
+    background-color: rgba(255, 255, 255, 0.4);
     display: flex;
     justify-content: space-between;
     height: 22vw;
@@ -92,6 +95,7 @@ nav {
     list-style: none;
     margin: 4.25rem 1rem;
     font-size: 1.5rem;
+    color: white;
 }
 
 #nav-bar li {
@@ -99,7 +103,8 @@ nav {
 }
 
 #restaurant-info {
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 0 1rem;
 }
 
 @media (max-width: 1250px) {
