@@ -1,0 +1,70 @@
+:root {
+ --quickbite-red: rgb(232, 87, 77);
+ --quickbite-gold: #F19E39; 
+}
+
+html {
+background-color: var(--quickbite-gold);
+padding: 0;
+}
+
+body {
+    margin: 0;
+}
+main {
+    margin: 0 auto;
+   
+}
+
+#welcome-section { 
+    background-color: var(--quickbite-red);
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#hero-image {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    max-height: 80vh;
+    max-width: 1000px;
+    padding-top: 5vh;
+}
+
+nav {
+    background-color: rgba(232, 87, 77, 0.6);
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+#logo-small {
+    opacity: 1;
+    height: 8rem;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+#nav-bar {
+
+    display: flex;
+    list-style: none;
+    margin: 4.25rem 1rem;
+    font-size: 1.5rem;
+}
+
+#nav-bar li {
+    margin: 0 1rem;
+}
+
+#restaurant-info {
+    font-size: 2rem;
+}
