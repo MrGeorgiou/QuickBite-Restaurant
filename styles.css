@@ -11,6 +11,7 @@ padding: 0;
 body {
     margin: 0;
 }
+
 main {
     margin: 0 auto;
    
@@ -32,16 +33,46 @@ main {
     display: block;
     margin: 0 auto;
     width: 80vw;
-    max-height: 80vh;
+    max-height: 70vh;
     max-width: 1000px;
-    padding-top: 5vh;
+    padding: 5vh 0 5vh 0;
+}
+
+#welcome-section p {
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.5vh;
+    font-weight: 600;
+    color: white;
+    margin: 0 auto 2vh auto;
+}
+
+#logo {
+    font-family: 'Grenze Gotisch', cursive;
+    color: var(--quickbite-gold);
+    font-size: 4vh;
+
+}
+.button {
+    display: block;
+    margin: 0 auto 1vh auto;
+    height: 2vh;
+    width: 3.5vh;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #F19E39;
+    border-radius: 4px;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 nav {
     background-color: rgba(232, 87, 77, 0.6);
     display: flex;
     justify-content: space-between;
-    height: 10rem;
+    height: 22vw;
+    max-height: 8rem;
     position: sticky;
     top: 0;
     width: 100%;
@@ -50,7 +81,7 @@ nav {
 
 #logo-small {
     opacity: 1;
-    height: 8rem;
+    height: 6rem;
     margin: 1rem 1rem 1rem 2rem;
 }
 
@@ -71,13 +102,13 @@ nav {
 }
 
 @media (max-width: 1250px) {
-    #welcome-section {
+    /* #welcome-section {
         max-height: 100vw;
-    }
+    } */
 
-    nav {
+    /* nav {
         max-height: 22vw;
-    }
+    } */
 
     /* #nav-bar {
         font-size: 5vw;
