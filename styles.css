@@ -88,3 +88,9 @@ nav {
         margin: 1rem 1rem 1rem 2.5vw;
     }
 }
+
+@media (max-width: 700px) {
+    #nav-bar {
+        display: none;
+    }
+}
