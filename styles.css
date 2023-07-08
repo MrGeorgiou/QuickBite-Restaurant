@@ -68,3 +68,9 @@ nav {
 #restaurant-info {
     font-size: 2rem;
 }
+
+@media (max-width: 1250px) {
+    #welcome-section {
+        max-height: 100vw;
+    }
+}
