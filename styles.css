@@ -107,7 +107,7 @@ main {
 }
 
 nav {
-    background-color: var(--quickbite-gold);
+    background-color: rgba(241, 158, 57, 0.9);
     /* background-color: rgba(255, 255, 255, 0.4); */
     display: flex;
     justify-content: space-between;
@@ -157,7 +157,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(232, 87, 77);
+    background-color: rgb(232, 87, 77);
     margin: 0;
     display: none;
     height: 100vh;
