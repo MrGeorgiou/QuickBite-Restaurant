@@ -5,3 +5,30 @@ html.alt {
 nav.alt {
     background-color: rgba(232, 87, 77, 0.9);
 }
+
+#menu {
+    padding: 0 1.2rem;
+}
+
+/* #menu h2 {
+
+} */
+
+#menu h3 {
+text-align: left;
+}
+
+#menu p.category-description {
+    text-indent: 0;
+}
+
+#menu h4 {
+    text-indent: 1rem;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#menu p {
+    text-indent: 2rem;
+    text-align: left;
+}

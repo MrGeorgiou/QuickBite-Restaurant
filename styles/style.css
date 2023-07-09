@@ -208,7 +208,7 @@ nav {
 
 #restaurant-info {
     font-size: 1rem;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
 
 h1 {
@@ -273,7 +273,6 @@ p .logo-text {
     #nav-button {
         display: block;
     }
-
 
     #nav-bar {
         display: none;
