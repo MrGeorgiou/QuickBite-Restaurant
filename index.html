@@ -11,26 +11,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Grenze+Gotisch:wght@900&family=Merriweather+Sans:wght@400;600&family=Nunito&display=swap" rel="stylesheet">    
+
+    <script src="app.js" defer></script>
 </head>
 <body>
     <main>
         <div id="welcome-section">
+        <!-- <div id="test"></div> -->
             <div class="content">
                 <img id="hero-image" src="images-and-svgs\svgs\QuickBite-logo-red-no-fill-whiteteeth.svg">
-                <p>Welcome to <span id="logo">QuickBite</span>!<br>Here, we do things a little differently...</p>
-                <a href="#logo-small"><img class="button" src="images-and-svgs\svgs\down-arrow-5-svgrepo-com.svg"></a>
+                <p>Hungry?<br>Why not grab a <span class="logo-text">QuickBite</span>!</p>
+                <span id="down-button-container">
+                    <a id="down-link" href="#logo-small">
+                        <img class="button" src="images-and-svgs\svgs\down-arrow-5-svgrepo-com.svg">
+                    </a>
+                </span>
             </div>
         </div>
         <nav>
             <img id="logo-small" src="images-and-svgs\svgs\QuickBite-logo-red-no-fill-whiteteeth.svg">
+            <div id="nav-button">
+                <div class="nav-line"></div>
+                <div class="nav-line"></div>
+                <div class="nav-line"></div>
+            </div>
             <ul id="nav-bar">
-                <li>Home</li>
-                <li>Menu</li>
-                <li>About-us</li>
-                <li>Contact</li>
+                <li><p><a href="welcome-section">Home</a></p></li>
+                <li><p><a href="welcome-section">Menu</a></p></li>
+                <li><p><a href="welcome-section">About-us</a></p></li>
+                <li><p><a href="welcome-section">Contact</a></p></li>
             </ul> 
         </nav>
+        <div id="nav-button-menu">
+            <div id="nav-menu-exit">
+                <img src="images-and-svgs\svgs\close-bold.svg">
+            </div>
+            <ul>
+                <li><p><a href="index.html#restaurant-info">Home</a></p></li>
+                <li><p><a href="welcome-section">Menu</a></p></li>
+                <li><p><a href="welcome-section">About-us</a></p></li>
+                <li><p><a href="welcome-section">Contact</a></p></li>
+            </ul>
+        </div>
         <div class="content" id="restaurant-info">
+            <h2>Here at <span class="logo-text">QuickBite</span> we do things a little differently...</h2>
+            <ul>
+                <li><p>Food so nutritious mother-nature wants it back.</p></li>
+                <li><p>Portions big enough to feed a wild animal.</p></li>
+                <li><p>We use food in our food. That means no colors, preservatives or nasty additives.</p></li>
+            </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum, leo vel cursus porta, tellus justo suscipit mi, eu aliquet sapien justo sed massa. Maecenas mattis sit amet quam eu maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer a tortor scelerisque, luctus augue at, interdum nisi. Suspendisse feugiat facilisis sem, ut porttitor neque facilisis sit amet. Nam magna nunc, imperdiet vitae est mollis, sodales laoreet mauris. Pellentesque et tortor nunc. Mauris nunc dui, viverra quis imperdiet ac, sollicitudin ut leo.
 
                 Cras porttitor malesuada efficitur. Aliquam ac nibh libero. Phasellus interdum maximus eros eget mattis. Curabitur nec faucibus est. Proin non tristique libero. Etiam eu turpis at nisi facilisis commodo. Nullam placerat id metus ac mattis. Nam vel urna turpis. Curabitur a augue eu erat lacinia malesuada quis a eros. In interdum lacus sed nulla aliquet, efficitur hendrerit metus commodo.
