@@ -194,6 +194,10 @@ nav {
     color: var(--quickbite-gold);
 }
 
+.active-alt {
+    color: var(--quickbite-red)
+}
+
 #nav-bar li {
     margin: 0 1rem;
 }
