@@ -62,7 +62,7 @@ main {
     padding: 5vh 0 5vh 0;
 }
 
-#welcome-section p {
+#welcome-section h1 {
     font-family: 'Baloo 2', cursive;
     font-size: 3.5vh;
     font-weight: 600;
