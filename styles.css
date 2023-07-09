@@ -214,13 +214,23 @@ h1 {
     margin: 3rem auto;
 }
 
-#restaurant-info .logo-text {
+h3 .logo-text {
+    font-size: 1.17em;
+    color: var(--quickbite-gold)
+}
+
+h1 .logo-text {
     color: var(--quickbite-gold);
     font-size: 2.5rem;
 }
 
+p .logo-text {
+    color: var(--quickbite-gold);
+    font-size: 1.2rem;
+}
+
 #restaurant-info ul {
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
