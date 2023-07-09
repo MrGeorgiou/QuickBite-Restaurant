@@ -71,10 +71,15 @@ main {
     padding: 0 3vw;
 }
 
+.logo-text-main {
+    font-family: 'Grenze Gotisch', cursive;
+    color: var(--quickbite-red);
+    font-size: 4vh;
+}
+
 .logo-text {
     font-family: 'Grenze Gotisch', cursive;
     color: var(--quickbite-red);
-    
 }
 
 #welcome-section .logo-text {
