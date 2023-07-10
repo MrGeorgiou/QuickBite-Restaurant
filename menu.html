@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Grenze+Gotisch:wght@900&family=Merriweather+Sans:wght@400;600&family=Nunito&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&family=Grenze+Gotisch:wght@900&family=Merriweather+Sans:wght@400;600&family=Nunito&display=swap" rel="stylesheet">    
 
     <script src="app.js" defer></script>
 </head>
@@ -36,64 +36,68 @@
                     <img src="images-and-svgs\svgs\close-bold.svg">
                 </div>
                 <ul>
-                    <li><p class="active"><a href="index.html">Home</a></p></li>
-                    <li><p><a href="menu.html">Menu</a></p></li>
+                    <li><p><a href="index.html">Home</a></p></li>
+                    <li><p class="active"><a href="menu.html">Menu</a></p></li>
                     <li><p><a href="welcome-section">About-us</a></p></li>
                     <li><p><a href="welcome-section">Contact</a></p></li>
                 </ul>
             </div>
             <div id="menu" class="content">
-                <h1>Menu</h1>
+                <div id="welcome-text">
+                    <img src="images-and-svgs/svgs/menu/restaurant-outline-svgrepo-com.svg">
+                    <h1>Menu</h1>
+                    <img src="images-and-svgs/svgs/menu/restaurant-outline-svgrepo-com.svg">
+                </div>
                 <ul>
                     <li class="menu-list-item">
                         <h2>Sides</h2>
                         <p class="category-description">A choice of a side comes with each main or can be purchased individually</p>
-                        <ul>
+                        <ul class="category-list">
                             <li class="individual-list-item">
                                 <h4>Fruit</h4>
-                                <p>Fresh fruit selection, gathered locally when possible. Pick any 3.</p>
-                                <p>Apple, Orange, Bananna, Pear, Strawberry.</p>
+                                <p class="individual-description">Fresh fruit selection, gathered locally when possible. Pick any 3.</p>
+                                <p class="ingredients">Apple, Orange, Bananna, Pear, Strawberry.</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Salad</h4>
-                                <p>Fresh Salad, gathered locally when possible.</p>
-                                <p>Lettuce, tomatoe, cucumber, spinach, red onion.</p>
+                                <p class="individual-description">Fresh Salad, gathered locally when possible.</p>
+                                <p class="ingredients">Lettuce, tomatoe, cucumber, spinach, red onion.</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Chips</h4>
-                                <p>Home-made chips from fresh potatoes, seasoned with are own proprietary blend of spices and cooked in olive-oil.</p>
-                                <p>Potatoes, olive-oil, pink-salt, rosemary, onion-powder, garlic-powder, cayenne-pepper.
+                                <p class="individual-description">Home-made chips from fresh potatoes, seasoned with are own proprietary blend of spices and cooked in olive-oil.</p>
+                                <p class="ingredients">Potatoes, olive-oil, pink-salt, rosemary, onion-powder, garlic-powder, cayenne-pepper.
                                 </p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Garlic Bread</h4>
-                                <p>Home-made gluten free garlic bread</p>
-                                <p>ingredients</p>
+                                <p class="individual-description">Home-made gluten free garlic bread</p>
+                                <p class="ingredients">ingredients</p>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-list-item">
                         <h2>Mains</h2>
                         <p class="category-description">description</p>
-                        <ul>
+                        <ul class="category-list">
                             <li class="dishtype-list-item">
                                 <h3>Burger</h3>
                                 <p class="dishtype-description">Description</p>
                                 <ul>
                                     <li class="individual-list-item">
                                         <h4>Chicken</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Beef</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Vegetable</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                 </ul>
                             </li>
@@ -103,18 +107,18 @@
                                 <ul>
                                     <li class="individual-list-item">
                                         <h4>Club</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>BLT</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Brecfast</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                 </ul>
                             </li>
@@ -124,18 +128,18 @@
                                 <ul>
                                     <li class="individual-list-item">
                                         <h4>Cheese</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Pepperoni</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Hawaian</h4>
-                                        <p>description</p>
-                                        <p>ingredients</p>
+                                        <p class="individual-description">description</p>
+                                        <p class="ingredients">ingredients</p>
                                     </li>
                                 </ul>
                             </li>
@@ -144,22 +148,22 @@
                     <li class="menu-list-item">
                         <h2>Specials</h2>
                         <p class="category-description">Description</p>
-                        <ul>
+                        <ul class="category-list">
                             <li class="dishtype-list-item">
                                 <h3>The QuickBite Special</h3>
                                 <p class="dishtype-description">Description</p>
                                 <ul>
                                     <li class="individual-list-item">
                                         <h4>The Brecfast bonanza</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Ham & Cheese</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Cajun Persuasion</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                 </ul>
                             </li>
@@ -168,66 +172,66 @@
                     <li class="menu-list-item">
                         <h2>Drinks</h2>
                         <p class="category-description">Description</p>
-                        <ul>
+                        <ul class="category-list">
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-list-item">
                         <h2>Desserts</h2>
                         <p class="category-description">Description</p>
-                        <ul>
+                        <ul class="category-list">
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                             <li class="individual-list-item">
                                 <h4>Milk</h4>
-                                <p>description</p>
+                                <p class="individual-description">description</p>
                             </li>
                         </ul>
                     </li>
                     <li class="menu-list-item">
                         <h2>Sauces</h2>
                         <p class="dishtype-description">Description</p>
-                        <ul>
+                        <ul class="category-list">
                             <li class="dishtype-list-item">
                                 <h3>Dips</h3>
                                 <p class="category-description">description</p>
                                 <ul>
                                     <li class="individual-list-item">
                                         <h4>Milk</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Milk</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Milk</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                 </ul>
                             </li>
@@ -237,11 +241,11 @@
                                 <ul>
                                     <li class="individual-list-item">
                                         <h4>Milk</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                     <li class="individual-list-item">
                                         <h4>Milk</h4>
-                                        <p>description</p>
+                                        <p class="individual-description">description</p>
                                     </li>
                                 </ul>
                             </li>

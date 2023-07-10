@@ -46,10 +46,14 @@ main {
     height: 100vh;
 }
 
+.landing {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .content {
     margin: 0 auto;
     max-width: 1000px;
-    text-align: center;
 }
 
 #hero-image {
@@ -61,6 +65,10 @@ main {
     padding: 5vh 0 5vh 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 #welcome-section h1 {
     font-family: 'Baloo 2', cursive;
     font-size: 3.5vh;
@@ -68,6 +76,7 @@ main {
     color: white;
     margin: 0 auto 2vh auto;
     padding: 0 3vw;
+    max-width: 1000px;
 }
 
 .logo-text-main {
@@ -75,6 +84,7 @@ main {
     color: var(--quickbite-red);
     font-size: 4vh;
 }
+
 
 .logo-text {
     font-family: 'Grenze Gotisch', cursive;
@@ -139,6 +149,7 @@ nav {
     border-radius: 6px;
     margin: 1rem 1rem 1rem 5vw;
     transition: background-color 0.3s ease-out;
+    cursor: pointer;
 }
 
 .nav-line {
@@ -245,6 +256,7 @@ p .logo-text {
 #restaurant-info h2 {
     color: var(--quickbite-gold);
     margin: 0 auto;
+    text-align: center;
 }
 
 #restaurant-info h3 {
