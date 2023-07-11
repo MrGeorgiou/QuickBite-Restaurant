@@ -67,6 +67,10 @@ main {
 
 h1 {
     text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3rem auto 2.5rem auto;
 }
 
 #welcome-section h1 {
@@ -222,13 +226,6 @@ nav {
     padding: 0 1.2rem;
 }
 
-h1 {
-    color: white;
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 3rem auto;
-}
-
 h3 .logo-text {
     font-size: 1.17em;
     color: var(--quickbite-gold)
@@ -250,7 +247,7 @@ p .logo-text {
 }
 
 #restaurant-info li {
-    margin: 3rem auto 4rem auto;
+    margin: 2.5rem auto 4rem auto;
 }
 
 #restaurant-info h2 {
