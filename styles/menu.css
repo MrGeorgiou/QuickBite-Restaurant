@@ -18,14 +18,13 @@ nav.alt {
 }
 
 #welcome-text h1 {
-    margin: 0;
+    margin: 0 1.5rem;
     color: var(--quickbite-red);
     font-weight: bold;
 }
 
 #welcome-text img {
-    height: 4rem;
-    margin: 0 2rem;
+    height: 2rem;
 }
 
 #category-welcome-text {
@@ -35,8 +34,10 @@ nav.alt {
 
 #category-welcome-text img {
     height: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+}
+
+#menu h2 {
+    margin: 0 1rem;
 }
 
 #menu h3 {
@@ -69,7 +70,7 @@ margin: 0.5rem 0 0 0;
 }
 
 .individual-list-item {
-    margin: 0.5rem 1rem 1rem 1rem;
+    margin: 0.5rem 0rem 1rem 0rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     padding: 0.5rem 1rem;
