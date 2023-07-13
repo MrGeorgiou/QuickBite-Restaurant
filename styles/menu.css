@@ -19,8 +19,8 @@ nav.alt {
 
 #welcome-text h1 {
     margin: 0 1.5rem;
-    color: var(--quickbite-red);
-    font-weight: bold;
+    color: white;
+    font-weight: 600;
 }
 
 #welcome-text img {
