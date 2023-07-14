@@ -121,9 +121,22 @@ h1 {
     transition: background-color 0.5s;
 }
 
+.button.alt {
+    margin: 1rem auto;
+    height: 1.5rem;
+    width: 2.5rem;
+    border: 2px solid var(--quickbite-gold);
+    background-color: var(--quickbite-red);
+}
+
 .button:hover {
     cursor: pointer;
     background-color: rgb(220, 146, 56);
+}
+
+.button.alt:hover {
+    border: 2px solid var(--quickbite-gold);
+    background-color: rgb(245, 91, 79);
 }
 
 nav {
@@ -172,6 +185,10 @@ nav {
     margin: 4.25rem 1rem;
     font-size: 1.5rem;
     color: white;
+}
+
+#nav-bar li p:hover {
+    color: var(--quickbite-red);
 }
 
 #nav-button-menu {
@@ -241,7 +258,6 @@ p .logo-text {
     font-size: 1.2rem;
 }
 
-
 #restaurant-info ul {
     max-width: 700px;
     margin: 0 auto;
@@ -268,9 +284,26 @@ p .logo-text {
     margin: 0 auto;
 }
 
+#side-button-container {
+    display: block;
+    margin: 1rem auto;
+    height: 2vh;
+    width: 3vh;
+    background-color: var(--quickbite-red);
+}
+
+#continue-prompt {
+    margin: 3rem;
+}
+
+#continue-prompt h1 {
+    margin-bottom: 1rem;
+}
+
 footer {
-    height: 10rem;
+    height: 10.5rem;
     background-color: var(--quickbite-gold);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);;
 }
 
 #socialmedia-icons {
@@ -287,7 +320,10 @@ footer {
 }
 
 #line-break {
+    display: block;
+    margin: 0 auto;
     height: 1px;
+    width: 90%;
     background-color:rgba(255, 255, 255, 0.5);
 }
 
@@ -295,10 +331,18 @@ footer {
     display: flex;
     justify-content: right;
     align-items: center;
+    font-size: 1.5rem;
 }
 
-#created-by .logo-text {
-    font-size: 2.5rem;
+#portfolio-link {
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+#portfolio-link img {
+    height: 1.5rem;
     margin: 0;
 }
 
