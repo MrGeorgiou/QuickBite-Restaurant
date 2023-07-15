@@ -269,7 +269,7 @@ p .logo-text {
 
 #restaurant-info h2 {
     color: var(--quickbite-gold);
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
     text-align: center;
 }
 
@@ -287,9 +287,10 @@ p .logo-text {
 #side-button-container {
     display: block;
     margin: 1rem auto;
-    height: 2vh;
-    width: 3vh;
+    height: 1.5rem;
+    width: 3rem;
     background-color: var(--quickbite-red);
+    text-align: center;
 }
 
 #continue-prompt {
@@ -304,6 +305,7 @@ footer {
     height: 10.5rem;
     background-color: var(--quickbite-gold);
     border-top: 1px solid rgba(255, 255, 255, 0.5);;
+    padding: 0 1.2rem;
 }
 
 #socialmedia-icons {
