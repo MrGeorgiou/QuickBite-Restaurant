@@ -1,0 +1,59 @@
+#down-button-container {
+    display: block;
+    margin: 0 auto;
+    height: 2vh;
+    width: 3vh;
+}
+
+.button {
+    display: block;
+    height: 100%;
+    width: 100%;
+    min-height: 15px;
+    min-width: 20px;
+    background-color: var(--quickbite-gold);
+    border: 2px solid var(--quickbite-red);
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+.button.responsive {
+    margin: 3vh auto;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(220, 146, 56);
+}
+
+
+.side-button-container {
+    display: block;
+    margin: 1rem auto;
+    height: 1.5rem;
+    width: 2rem;
+    background-color: var(--quickbite-red);
+    text-align: center;
+}
+
+.button.side {
+    margin: 1rem auto;
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--quickbite-gold);
+    background-color: var(--quickbite-red);
+}
+
+.button.side:hover {
+    background-color: rgb(245, 91, 79);
+}
+
+
+.side-button-container.alt {
+    background-color: var(--quickbite-gold);
+}
+
+.button.side.alt {
+    border: 2px solid var(--quickbite-red);
+    background-color: var(--quickbite-gold);
+}

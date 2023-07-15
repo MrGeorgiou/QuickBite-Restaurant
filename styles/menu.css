@@ -6,10 +6,13 @@ nav.alt {
     background-color: rgba(232, 87, 77, 0.9);
 }
 
+#nav-bar li p.alt:hover {
+    color: var(--quickbite-gold);
+}
+
 #menu {
     padding: 0 1.2rem;
 }
-
 
 #welcome-text p#menu-description {
     text-align: center;
@@ -120,3 +123,4 @@ p.category-description {
 footer.alt {
     background-color: var(--quickbite-red);
 }
+
