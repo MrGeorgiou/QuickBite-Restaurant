@@ -97,3 +97,7 @@ p.category-description {
 .dishtype-list-item {
     margin-bottom: 1.5rem;
 }
+
+footer.alt {
+    background-color: var(--quickbite-red);
+}
