@@ -10,7 +10,15 @@ nav.alt {
     padding: 0 1.2rem;
 }
 
-#welcome-text {
+
+#welcome-text p#menu-description {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#title-wrapper {
     margin: 3rem auto 1.5rem auto;
     display: flex;
     align-items: center;
@@ -44,6 +52,7 @@ nav.alt {
 text-align: left;
 color: var(--quickbite-red);
 margin: 0.5rem 0 0 0;
+font-size: 1.25rem;
 }
 
 #menu p.category-description, #menu p.dishtype-description {
@@ -56,6 +65,7 @@ margin: 0.5rem 0 0 0;
 #menu h4 {
     margin: 0 0 0 0;
     text-align: left;
+    font-size: 1.1rem;
     font-weight: 800;
     color: var(--quickbite-red);
 }
@@ -95,7 +105,16 @@ p.category-description {
 }
 
 .dishtype-list-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.logo-text.alt {
+    color: var(--quickbite-red);
+    font-size: 1.3rem;
 }
 
 footer.alt {
