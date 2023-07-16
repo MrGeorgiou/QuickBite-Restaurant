@@ -31,13 +31,13 @@ main {
 
 #welcome-section { 
     background-color: var(--quickbite-gold);
-    width: 100%;
-    height: 100vh;
 }
 
 .landing {
     margin: 0 auto;
     text-align: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .content {
@@ -179,7 +179,7 @@ nav {
     color: var(--quickbite-gold);
 }
 
-.active-alt {
+.active.alt {
     color: var(--quickbite-red)
 }
 
