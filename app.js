@@ -33,7 +33,7 @@ const text = document.getElementById("text");
 function parallaxEffect() {
     let value = window.scrollY;
 console.log(value);
-    middle.style.top = value * 0.5 + "px";
+    middle.style.top = value * 0.4 + "px";
     // foreground.style.top = -value * 0.5 + "px";
     text.style.top = -value * 1.25 + "px";
 }
