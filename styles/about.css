@@ -21,13 +21,18 @@
     object-fit: cover;
 }
 
+#middle {
+    z-index: 1;
+}
+
 #foreground {
     z-index: 2;
 }
 
-#text {
+h1#text {
     position: relative;
-    z-index: 1;
-    padding: 1rem;
+    z-index: 0;
+    padding: 0 1rem;
     font-size: 3.5vh;
+    margin: 20vh auto 0 auto;
 }
