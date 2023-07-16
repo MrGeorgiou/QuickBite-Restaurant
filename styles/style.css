@@ -39,6 +39,7 @@ main {
     width: 100%;
     height: 100vh;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .content {
@@ -150,6 +151,7 @@ nav {
     margin: 0;
     display: none;
     height: 100vh;
+    z-index: 10;
 }
 
 #nav-menu-exit img {

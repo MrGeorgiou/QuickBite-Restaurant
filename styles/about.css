@@ -29,4 +29,6 @@
     position: relative;
     z-index: 1;
     padding: 1rem;
+    font-size: 3.5vh;
+}
 }
