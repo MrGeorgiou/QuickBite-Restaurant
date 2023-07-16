@@ -29,13 +29,13 @@ navMenuExitButton.addEventListener("click", NavMenuOff);
 const middle = document.getElementById("middle");
 const foreground = document.getElementById("foreground");
 const text = document.getElementById("text");
+const scrollPrompt = document.getElementById("scroll-prompt")
 
 function parallaxEffect() {
     let value = window.scrollY;
-console.log(value);
+    scrollPrompt.textContent ="";
     middle.style.top = value * 0.4 + "px";
-    // foreground.style.top = -value * 0.5 + "px";
-    text.style.top = value * 0.8 + "px";
+    text.style.top = value * 1.5 + "px";
 }
 
 window.addEventListener("scroll", parallaxEffect);
