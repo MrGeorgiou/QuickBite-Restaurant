@@ -16,6 +16,7 @@
     top: 0;
     left: 0;
     object-fit: cover;
+    pointer-events: none;
 }
 
 #middle {
@@ -41,4 +42,35 @@ div#text h1 {
 
 div#text p {
     font-size: 1rem;
+}
+
+
+#location {
+    text-align: center;
+}
+
+#address ul {
+    margin: 0;
+}
+
+#address li p {
+    margin: 0.5rem;
+}
+
+#address h2 {
+    color: var(--quickbite-gold);
+    margin: 0 auto 0.5rem auto;
+}
+
+#opening-hours {
+   margin: 0 auto;
+   text-align: center;
+   justify-content: center;
+}
+
+#opening-hours-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    grid-template-rows: repeat(7, 3rem);
 }
