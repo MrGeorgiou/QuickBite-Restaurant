@@ -25,3 +25,17 @@ for (const navMenulistElement of navMenulistElements) {
 
 navButton.addEventListener("click", NavMenuOn);
 navMenuExitButton.addEventListener("click", NavMenuOff);
+
+const middle = document.getElementById("middle");
+const foreground = document.getElementById("foreground");
+const text = document.getElementById("text");
+
+function parallaxEffect() {
+    let value = window.scrollY;
+console.log(value);
+    middle.style.top = value * 0.5 + "px";
+    // foreground.style.top = -value * 0.5 + "px";
+    text.style.top = -value * 1.25 + "px";
+}
+
+window.addEventListener("scroll", parallaxEffect);

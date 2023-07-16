@@ -10,10 +10,6 @@ nav.alt {
     color: var(--quickbite-gold);
 }
 
-#menu {
-    padding: 0 1.2rem;
-}
-
 #welcome-text p#menu-description {
     text-align: center;
     margin: 0 auto;
