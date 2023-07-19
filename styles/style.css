@@ -210,27 +210,27 @@ p .logo-text {
     font-size: 1.2rem;
 }
 
-#restaurant-info ul {
+.non-menu ul {
     max-width: 700px;
     margin: 0 auto;
 }
 
-#restaurant-info li {
+.non-menu li {
     margin: 2.5rem auto 3.5rem auto;
 }
 
-#restaurant-info h2 {
+.non-menu h2 {
     color: var(--quickbite-gold);
     margin: 0 auto 0.5rem auto;
     text-align: center;
 }
 
-#restaurant-info h3 {
+.non-menu h3 {
     margin: 0 auto 0.5rem auto;
     text-align: left
 }
 
-#restaurant-info p {
+.non-menu p {
     font-size: 1rem;
     text-align: left;
     margin: 0 auto;

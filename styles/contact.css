@@ -1,0 +1,50 @@
+.non-menu.content.alt {
+    max-width: 700px;
+}
+
+.non-menu.alt h2 {
+    color: var(--quickbite-red);
+}
+
+.non-menu.alt h3 {
+    color: var(--quickbite-red);
+}
+
+.non-menu.alt p {
+    margin-bottom: 1rem;
+}
+
+
+#logo-grid {
+    width: 36rem;
+    margin: 0 auto 1.5rem auto;
+    display: grid;
+    background-color: grey;
+    grid-template-columns: 12rem 12rem 12rem;
+    justify-content: center;
+}
+
+#logo-grid img {
+    max-height: 10rem;
+    margin: 1.5rem;
+}
+
+#lake-image {
+    display: block;
+    margin: 0 auto; 
+    width: 80vw;
+    object-fit: cover;
+    max-width: 700px;
+}
+
+@media (max-width: 650px) {
+    #logo-grid {
+        grid-template-columns: 40vw 40vw;
+        width: 80vw;
+        
+    }
+
+    #logo-grid img {
+        margin: 5vw;
+    }
+}
