@@ -3,6 +3,22 @@
  --quickbite-gold: #F19E39; 
 }
 
+::-webkit-scrollbar {
+    width: 0.6rem;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(200, 200, 200);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(225, 225, 225);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+}
+
 html {
 background-color: var(--quickbite-red);
 padding: 0;
@@ -190,6 +206,10 @@ nav.alt {
     padding: 3vh;
     font-size: 6vh;
     border-top: 1px solid white;
+}
+
+#nav-button-menu p.active {
+    color: var(--quickbite-gold);
 }
 
 .active {
