@@ -1,15 +1,3 @@
-html.alt {
-    background-color: #F19E39;
-}
-
-nav.alt {
-    background-color: rgba(232, 87, 77, 0.9);
-}
-
-#nav-bar li p.alt:hover {
-    color: var(--quickbite-gold);
-}
-
 #welcome-text p#menu-description {
     text-align: center;
     margin: 0 auto;

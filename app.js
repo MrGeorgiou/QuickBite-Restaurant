@@ -36,7 +36,19 @@ function parallaxEffect() {
     let value = window.scrollY;
     scrollPrompt.textContent ="";
     middle.style.top = value * 0.4 + "px";
-    text.style.top = value * 1.5 + "px";
+    text.style.top = value * 1.2 + "px";
 }
 
 window.addEventListener("scroll", parallaxEffect);
+
+
+//COPY TO CLIPBOARD
+const myEmailTextElement = document.getElementById("my-email");
+
+function copyToClipboard(event) {
+    const elementToCopy = event.target.textContent;
+    navigator.clipboard.writeText(elementToCopy);
+    alert("Email address copied to clipboard!");
+}
+
+myEmailTextElement.addEventListener("click", copyToClipboard);

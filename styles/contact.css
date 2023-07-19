@@ -37,6 +37,32 @@
     max-width: 700px;
 }
 
+#contact-list li {
+    max-width: 30rem;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-list li div {
+    margin: 0 1rem;
+}
+
+.non-menu.alt #contact-list p {
+    margin: 0;
+}
+
+#contact-list img {
+    height: 1.5rem;
+}
+
+#my-email:hover {
+    cursor: pointer;
+
+}
+
+
 @media (max-width: 650px) {
     #logo-grid {
         grid-template-columns: 40vw 40vw;

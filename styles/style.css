@@ -8,6 +8,10 @@ background-color: var(--quickbite-red);
 padding: 0;
 }
 
+html.alt {
+    background-color: #F19E39;
+}
+
 body {
     margin: 0;
     color: white;
@@ -104,6 +108,11 @@ nav {
     align-items: center;
 }
 
+nav.alt {
+    background-color: rgba(232, 87, 77, 0.9);
+}
+
+
 #logo-small {
     opacity: 1;
     height: 6rem;
@@ -143,6 +152,10 @@ nav {
     color: var(--quickbite-red);
 }
 
+#nav-bar li p.alt:hover {
+    color: var(--quickbite-gold);
+}
+
 #nav-button-menu {
     position: fixed;
     top: 0;
@@ -180,11 +193,12 @@ nav {
 }
 
 .active {
-    color: var(--quickbite-gold);
+    color: var(--quickbite-red)
 }
 
 .active.alt {
-    color: var(--quickbite-red)
+    
+    color: var(--quickbite-gold);
 }
 
 #nav-bar li {
