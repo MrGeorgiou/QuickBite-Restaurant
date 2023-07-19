@@ -15,13 +15,20 @@
 }
 
 
+#design li {
+    margin-top: 0.5rem;
+}
+
 #logo-grid {
     width: 36rem;
     margin: 0 auto 1.5rem auto;
     display: grid;
-    background-color: grey;
     grid-template-columns: 12rem 12rem 12rem;
     justify-content: center;
+}
+
+#logo-grid div {
+background-color: rgb(197, 131, 50);
 }
 
 #logo-grid img {
@@ -32,13 +39,17 @@
 #lake-image {
     display: block;
     margin: 0 auto; 
-    width: 80vw;
+    width: 90vw;
     object-fit: cover;
     max-width: 700px;
 }
 
+#contact-me {
+    margin: 3rem 0;
+}
+
 #contact-list li {
-    max-width: 30rem;
+    max-width: 25rem;
     margin: 1rem auto;
     display: flex;
     align-items: center;
@@ -46,7 +57,7 @@
 }
 
 #contact-list li div {
-    margin: 0 1rem;
+    margin: 1rem;
 }
 
 .non-menu.alt #contact-list p {

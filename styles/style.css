@@ -224,6 +224,11 @@ p .logo-text {
     font-size: 1.2rem;
 }
 
+.logo-text.alt {
+    color: var(--quickbite-red);
+    font-size: 1.3rem;
+}
+
 .non-menu ul {
     max-width: 700px;
     margin: 0 auto;
@@ -264,6 +269,11 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.5);;
     padding: 0 1.2rem;
 }
+
+footer.alt {
+    background-color: var(--quickbite-red);
+}
+
 
 #socialmedia-icons {
     display: flex;

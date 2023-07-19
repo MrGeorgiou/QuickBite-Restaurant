@@ -98,13 +98,3 @@ p.category-description {
 .price {
     font-weight: bold;
 }
-
-.logo-text.alt {
-    color: var(--quickbite-red);
-    font-size: 1.3rem;
-}
-
-footer.alt {
-    background-color: var(--quickbite-red);
-}
-
