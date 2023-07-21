@@ -3,7 +3,6 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: #8AABDA;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -19,17 +18,25 @@
     pointer-events: none;
 }
 
+#background {
+    z-index: 3;
+}
+
 #middle {
-    z-index: 1;
+    z-index: 5;
 }
 
 #foreground {
-    z-index: 2;
+    z-index: 6;
+}
+
+#foreground-2 {
+    z-index: 1;
 }
 
 div#text {
     position: relative;
-    z-index: 0;
+    z-index: 6;
     padding: 0 1rem;
     margin: 20vh auto 0 auto;
 }
@@ -58,6 +65,11 @@ p#scroll-prompt {
       100% {
         opacity: 1;
       }
+}
+
+
+#main {
+    z-index: 3;
 }
 
 #location {
