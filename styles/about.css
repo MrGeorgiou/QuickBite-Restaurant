@@ -18,16 +18,13 @@
     pointer-events: none;
 }
 
-#background {
-    z-index: 3;
-}
-
 #middle {
     z-index: 5;
 }
 
 #foreground {
     z-index: 6;
+    bottom: 0;
 }
 
 #foreground-2 {
