@@ -39,7 +39,7 @@ function parallaxEffect() {
     background.style.top = value * 0.4 + "px";
     middle.style.top = value * 0.4 + "px";
     text.style.top = value * 1.2 + "px";
-    text.style.opacity = 1 - (value / 300);
+    text.style.opacity = 1 - (value / 200);
 }
 
 window.addEventListener("scroll", parallaxEffect);
