@@ -35,7 +35,6 @@ const scrollPrompt = document.getElementById("scroll-prompt")
 
 function parallaxEffect() {
     let value = window.scrollY;
-    console.log(value);
     scrollPrompt.textContent ="";
     background.style.top = value * 0.4 + "px";
     middle.style.top = value * 0.4 + "px";
@@ -48,6 +47,7 @@ window.addEventListener("scroll", parallaxEffect);
 
 //COPY TO CLIPBOARD
 const myEmailTextElement = document.getElementById("my-email");
+console.log(myEmailTextElement);
 
 function copyToClipboard(event) {
     const elementToCopy = event.target.textContent;
@@ -55,4 +55,6 @@ function copyToClipboard(event) {
     alert("Email address copied to clipboard!");
 }
 
+
 myEmailTextElement.addEventListener("click", copyToClipboard);
+
