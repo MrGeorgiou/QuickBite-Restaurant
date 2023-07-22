@@ -128,7 +128,6 @@ nav.alt {
     background-color: rgba(232, 87, 77, 0.9);
 }
 
-
 #logo-small {
     opacity: 1;
     height: 6rem;
@@ -159,13 +158,62 @@ nav.alt {
     white-space: nowrap;
     display: flex;
     list-style: none;
-    margin: 4.25rem 1rem;
+    margin: 0 1rem;
     font-size: 1.5rem;
     color: white;
 }
 
 #nav-bar li p:hover {
     color: var(--quickbite-red);
+}
+
+#nav-bar li {
+    margin: 0 1rem;
+    width: 100px;
+    text-align: center;
+}
+
+.sub-menu-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.sub-menu-title-wrapper img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.sub-menu-title-wrapper img
+
+#nav-bar li p img {
+    height: 1.5rem;
+}
+
+#nav-bar li .sub-menu {
+    font-size: 1.1rem;
+    position: absolute;
+    height: auto;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    display: none;
+    background-color: rgba(241, 158, 57, 0.9);
+}
+
+#nav-bar li .sub-menu li {
+    text-align: left;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#nav-bar li:hover .sub-menu {
+    display: block;
+}
+
+#nav-bar li .sub-menu>:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+#nav-bar li:hover .sub-menu-title-wrapper img {
+    transform: rotate(90deg);
 }
 
 #nav-bar li p.alt:hover {
@@ -221,9 +269,6 @@ nav.alt {
     color: var(--quickbite-gold);
 }
 
-#nav-bar li {
-    margin: 0 1rem;
-}
 
 #restaurant-info {
     font-size: 1rem;
