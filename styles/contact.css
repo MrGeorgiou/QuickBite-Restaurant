@@ -19,6 +19,10 @@
     margin-top: 0.5rem;
 }
 
+#design span.logo-text.alt {
+    font-size: 1.1rem;
+}
+
 #logo-grid {
     width: 36rem;
     margin: 0 auto 1.5rem auto;
@@ -69,7 +73,7 @@ background-color: rgb(197, 131, 50);
     
 }
 
-#my-email:hover {
+#email:hover {
     cursor: pointer;
 
 }
