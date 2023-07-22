@@ -163,19 +163,24 @@ nav.alt {
     color: white;
 }
 
-#nav-bar li p:hover {
-    color: var(--quickbite-red);
-}
-
 #nav-bar li {
     margin: 0 1rem;
     width: 100px;
     text-align: center;
 }
 
+#nav-bar li p:hover {
+    color: var(--quickbite-red);
+}
+
+#nav-bar li p a {
+    height: 1.5rem;
+}
+
 .sub-menu-title-wrapper {
     display: flex;
     align-items: center;
+    justify-content: c;
 }
 
 .sub-menu-title-wrapper img {
