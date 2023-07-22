@@ -9,6 +9,23 @@ function displayPage() {
 document.addEventListener("DOMContentLoaded", displayPage);
 
 
+//PAGE JUMP/FIXED NAV BAR PROBLEM - FIX 
+function fixPagePosition() {
+    window.scrollBy(0, -150);
+}
+
+window.addEventListener("hashchange", fixPagePosition)
+
+function onLoad() {
+    if(window.location.hash) {
+        fixPagePosition();
+    }
+}
+
+window.onload = onLoad 
+
+
+
 //NAVIGATION MENU
 const navBar = document.querySelector("nav");
 const navMenu = document.getElementById("nav-button-menu");

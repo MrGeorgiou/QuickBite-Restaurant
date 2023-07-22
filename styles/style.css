@@ -128,6 +128,23 @@ nav.alt {
     background-color: rgba(232, 87, 77, 0.9);
 }
 
+nav.alt #nav-bar li .sub-menu {
+    background-color: rgba(232, 87, 77, 0.9);
+}
+
+nav.alt #nav-bar li p:hover {
+    color: var(--quickbite-gold);
+}
+
+nav.alt #nav-bar li .sub-menu p:hover {
+    color: var(--quickbite-gold);
+}
+
+nav.alt #nav-bar li p.active {
+    color: var(--quickbite-gold);
+}
+
+
 #logo-small {
     opacity: 1;
     height: 6rem;
@@ -180,7 +197,7 @@ nav.alt {
 .sub-menu-title-wrapper {
     display: flex;
     align-items: center;
-    justify-content: c;
+    justify-content: center;
 }
 
 .sub-menu-title-wrapper img {
@@ -219,10 +236,6 @@ nav.alt {
 
 #nav-bar li:hover .sub-menu-title-wrapper img {
     transform: rotate(90deg);
-}
-
-#nav-bar li p.alt:hover {
-    color: var(--quickbite-gold);
 }
 
 #nav-button-menu {
@@ -268,12 +281,6 @@ nav.alt {
 .active {
     color: var(--quickbite-red)
 }
-
-.active.alt {
-    
-    color: var(--quickbite-gold);
-}
-
 
 #restaurant-info {
     font-size: 1rem;
