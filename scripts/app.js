@@ -1,3 +1,14 @@
+//PAGE LOADING
+const page = document.querySelector("body");
+page.style.display = "none";
+
+function displayPage() {
+    page.style.display = "block";
+}
+
+document.addEventListener("DOMContentLoaded", displayPage);
+
+
 //NAVIGATION MENU
 const navBar = document.querySelector("nav");
 const navMenu = document.getElementById("nav-button-menu");
@@ -26,28 +37,11 @@ for (const navMenulistElement of navMenulistElements) {
 navButton.addEventListener("click", NavMenuOn);
 navMenuExitButton.addEventListener("click", NavMenuOff);
 
-
-//PARALLAX EFFECT
-const foreground = document.getElementById("foreground-2")
-const middle = document.getElementById("middle");
-const text = document.getElementById("text");
-const scrollPrompt = document.getElementById("scroll-prompt");
-
-function parallaxEffect() {
-    let value = window.scrollY;
-    scrollPrompt.textContent ="";
-    foreground.style.top = value * 0.3 + "px";
-    middle.style.top = value * 0.4 + "px";
-    text.style.top = value * 1.2 + "px";
-    text.style.opacity = 1 - (value / 150);
-}
-
-window.addEventListener("scroll", parallaxEffect);
+document.addEventListener("DOMContentLoaded", displayPage);
 
 
 //COPY TO CLIPBOARD
-const myEmailTextElement = document.getElementById("my-email");
-console.log(myEmailTextElement);
+const email = document.getElementById("email");
 
 function copyToClipboard(event) {
     const elementToCopy = event.target.textContent;
@@ -55,6 +49,4 @@ function copyToClipboard(event) {
     alert("Email address copied to clipboard!");
 }
 
-
-myEmailTextElement.addEventListener("click", copyToClipboard);
-
+email.addEventListener("click", copyToClipboard);
