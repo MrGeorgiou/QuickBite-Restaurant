@@ -247,6 +247,12 @@ nav.alt #nav-bar li p.active {
     display: none;
     height: 100vh;
     z-index: 10;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#nav-button-menu li .sub-menu {
+    display: none;
 }
 
 #nav-menu-exit img {
@@ -272,6 +278,18 @@ nav.alt #nav-bar li p.active {
     padding: 3vh;
     font-size: 6vh;
     border-top: 1px solid white;
+}
+
+#nav-button-menu .sub-menu-title-wrapper {
+    border-top: 1px solid white;
+}
+
+#nav-button-menu li .sub-menu li p {
+    font-size: 4vh;
+}
+
+#nav-button-menu .sub-menu-title-wrapper p {
+    border-top: none;
 }
 
 #nav-button-menu p.active {
