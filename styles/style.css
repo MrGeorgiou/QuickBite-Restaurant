@@ -274,14 +274,22 @@ nav.alt #nav-bar li p.active {
 }
 
 #nav-button-menu li p {
-    margin: 0 auto;
-    padding: 3vh;
+    margin: 0;
+    padding: 3vh 0;
     font-size: 6vh;
     border-top: 1px solid white;
 }
 
 #nav-button-menu .sub-menu-title-wrapper {
     border-top: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-button-menu .sub-menu-title-wrapper img {
+    height: 5vh;
+    width: 5vh;
+    margin-left: 0.5vh;
 }
 
 #nav-button-menu li .sub-menu li p {
