@@ -292,6 +292,10 @@ nav.alt #nav-bar li p.active {
     border-top: none;
 }
 
+#nav-button-menu .sub-menu-title-wrapper img {
+    cursor: pointer;
+}
+
 #nav-button-menu p.active {
     color: var(--quickbite-gold);
 }

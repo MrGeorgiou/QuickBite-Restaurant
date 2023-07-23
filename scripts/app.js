@@ -34,30 +34,32 @@ const navButton = document.getElementById("nav-button");
 
 const subMenuArrow = document.querySelector("#nav-button-menu li .sub-menu-title-wrapper img");
 const subMenuList = document.querySelector("#nav-button-menu li .sub-menu");
+const subMenuListItems = document.querySelectorAll("#nav-button-menu li .sub-menu li");
 
 let navMenuVisibility = false;
 let subMenuVisibility = false;
 
-function NavMenuOn() {
+function toggleNavMenu() {
     if (!navMenuVisibility) {
         navMenu.style.display = "block";
         navMenuVisibility = true;
-    } 
-}
-
-function NavMenuOff() {
+    } else {
         navMenu.style.display = "none";
         navMenuVisibility = false;
+        subMenuArrow.style.transform = "none";
+        subMenuList.style.display = "none";
+        subMenuVisibility = false;
+    }
 }
 
 for (const navMenulistElement of navMenulistElements) {
     if(!subMenuArrow) {
-    navMenulistElement.addEventListener("click", NavMenuOff);
+    navMenulistElement.addEventListener("click", toggleNavMenu);
     }
 }
 
-navButton.addEventListener("click", NavMenuOn);
-navMenuExitButton.addEventListener("click", NavMenuOff);
+navButton.addEventListener("click", toggleNavMenu);
+navMenuExitButton.addEventListener("click", toggleNavMenu);
 
 function toggleSubMenu() { 
     if(!subMenuVisibility) {
@@ -69,6 +71,10 @@ function toggleSubMenu() {
         subMenuList.style.display = "none";
         subMenuVisibility = false;
     }
+}
+
+for (const subMenuListItem of subMenuListItems) {
+    subMenuListItem.addEventListener("click", toggleNavMenu);
 }
 
 subMenuArrow.addEventListener("click", toggleSubMenu);
