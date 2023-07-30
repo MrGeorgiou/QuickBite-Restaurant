@@ -17,23 +17,12 @@
 
     <script src="scripts/app.js" defer></script>
     <script src="scripts/parallax.js" defer></script>
+    <script src="scripts/about.js" defer></script>
+
 </head>
 <body>
     <main>
-        <div class="landing">
-            <div id="parallax-lake">
-                <div id="text">
-                    <h1><span class="logo-text-main">QuickBite</span> @ The Point</h1>
-                    <p id="scroll-prompt">scroll</p>
-                    </span>
-                </div>
-                <!-- <img class="parallax-item" id="background" src="images-and-svgs\images\lake-background-sky-alt.png"></div> -->
-                <img class="parallax-item" id="middle" src="images-and-svgs/images/lake-middle-alt4.png">
-                <img class="parallax-item" id="foreground-2" src="images-and-svgs\images\lake-foreground-layer2-alt.png">
-                <img class="parallax-item" id="foreground" src="images-and-svgs\images\lake-foreground.png">
-            </div>
-        </div>
-        <nav>
+        <nav id="about-pg-nav">
             <img id="logo-small" src="images-and-svgs\svgs\logos\QuickBite-logo-red-no-fill-whiteteeth.svg">
             <div id="nav-button">
                 <div class="nav-line"></div>
@@ -49,7 +38,7 @@
                         </p>
                         <img src="images-and-svgs\svgs\arrows\side-arrow-white.svg">
                     </div>
-                    <ul class="sub-menu">
+                    <ul id="about-sub-menu" class="sub-menu">
                         <li>
                             <p><a href="menu.html#sides">Sides</a></p>
                         </li>
@@ -74,6 +63,20 @@
                 <li><p><a href="contact.html">Contact</a></p></li>
             </ul> 
         </nav>
+        <div class="landing">
+            <div id="parallax-lake">
+                <div id="text">
+                    <h1><span class="logo-text-main">QuickBite</span> @ The Point</h1>
+                    <p id="scroll-prompt">scroll</p>
+                    </span>
+                </div>
+                <!-- <img class="parallax-item" id="background" src="images-and-svgs\images\lake-background-sky-alt.png"></div> -->
+                <img class="parallax-item" id="middle" src="images-and-svgs/images/lake-middle-alt4.png">
+                <img class="parallax-item" id="foreground-2" src="images-and-svgs\images\lake-foreground-layer2-alt.png">
+                <img class="parallax-item" id="foreground" src="images-and-svgs\images\lake-foreground.png">
+            </div>
+        </div>
+        
         <div id="nav-button-menu">
             <div id="nav-menu-exit">
                 <img src="images-and-svgs\svgs\arrows\close-bold.svg">

@@ -1,3 +1,9 @@
+#about-pg-nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: transparent;
+}
 
 #parallax-lake {
     position: relative;
