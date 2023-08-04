@@ -12,6 +12,7 @@
     overflow: hidden;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 }
 
 .parallax-item {
