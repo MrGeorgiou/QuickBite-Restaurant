@@ -364,6 +364,7 @@ p .logo-text {
 
 .continue-prompt {
     margin: 3rem;
+    text-align: center;
 }
 
 .continue-prompt h1 {

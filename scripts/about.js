@@ -22,5 +22,4 @@ function navBackgroundFadein() {
     }
 }
 
-
 window.addEventListener("scroll", navBackgroundFadein);

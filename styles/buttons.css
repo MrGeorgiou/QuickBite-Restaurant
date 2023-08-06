@@ -28,7 +28,7 @@
 
 
 .side-button-container {
-    display: block;
+    display: inline-block;
     margin: 1rem auto;
     height: 1.5rem;
     width: 2rem;
