@@ -8,17 +8,21 @@ if (window.scrollY) {
 }
 
 function navBackgroundFadein() {
-    const navAboutPageOpacityMax = "rgba(241, 158, 57, 0.9)";
-    const value = window.scrollY;
-    const rgbaOpacityValue = value * 0.002;
+    // const navAboutPageOpacityMax = "rgba(241, 158, 57, 0.9)";
+    // const value = window.scrollY;
+    // const rgbaOpacityValue = value * 0.002;
 
-    if (navAboutPage.style.backgroundColor !== navAboutPageOpacityMax  || rgbaOpacityValue < navAboutPageOpacityMax) {
-        subMenuAboutPage.style.backgroundColor = "rgba(241, 158, 57, " + rgbaOpacityValue + ")";
-        navAboutPage.style.backgroundColor = "rgba(241, 158, 57, " + rgbaOpacityValue + ")";
-    }
-
-    if (window.scrollY < 10) {
+    // if (navAboutPage.style.backgroundColor !== navAboutPageOpacityMax  || rgbaOpacityValue < navAboutPageOpacityMax) {
+    //     subMenuAboutPage.style.backgroundColor = "rgba(241, 158, 57, " + rgbaOpacityValue + ")";
+    //     navAboutPage.style.backgroundColor = "rgba(241, 158, 57, " + rgbaOpacityValue + ")";
+    // }
+console.log(window.scrollY);
+    if (window.scrollY < 200) {
+        navAboutPage.style.backgroundColor = "transparent"
         subMenuAboutPage.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+    } else {
+        navAboutPage.style.backgroundColor = "rgba(241, 158, 57, 0.9)";
+        subMenuAboutPage.style.backgroundColor = "rgba(241, 158, 57, 0.9)";
     }
 }
 

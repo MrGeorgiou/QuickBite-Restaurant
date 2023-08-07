@@ -24,6 +24,14 @@ background-color: var(--quickbite-red);
 padding: 0;
 }
 
+html.background-image {
+    background-image: url("../images-and-svgs/images/yellow-sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
 html.alt {
     background-color: #F19E39;
 }
