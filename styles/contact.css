@@ -78,7 +78,6 @@ background-color: rgb(197, 131, 50);
 
 }
 
-
 @media (max-width: 650px) {
     #logo-grid {
         grid-template-columns: 40vw 40vw;
