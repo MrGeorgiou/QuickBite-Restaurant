@@ -125,14 +125,14 @@ h1 {
     border-radius: 1vh;
     max-width: 45vh;
     transition: background-color 0.25s ease-in-out;
-    height: min(17vh, 55vw);
+    height: min(17vh, 50vw);
     margin: 0 auto;
 }
 
 .logo-text-main {
     font-family: 'Grenze Gotisch', cursive;
     color: var(--quickbite-red);
-    font-size: 4vh;
+    font-size: min(4vh, 11vw);
 }
 
 
