@@ -96,6 +96,7 @@ function highlightText(element) {
 
 window.addEventListener("scroll", () => { highlightText(welcomeText) });
 
+
 //PARALLAX EFFECT 
 
 const heroImage = document.getElementById("hero-image");
@@ -106,4 +107,21 @@ function positionFixedEffect(element) {
 element.style.top = value + "px";
 }
 
-window.addEventListener("scroll", () => {positionFixedEffect(heroImage)})
+
+//DISPLAY LOGO
+const navLogo = document.getElementById("logo-small");
+
+function displayLogo() {
+    if(window.scrollY > 1) {
+        navLogo.style.display = "block";
+    } else {
+        navLogo.style.display = "none";
+    }
+}
+
+function onScroll() {
+    positionFixedEffect(heroImage);
+    displayLogo();
+}
+
+window.addEventListener("scroll", onScroll)
