@@ -26,10 +26,9 @@ padding: 0;
 
 html.background-image {
     background-image: url("../images-and-svgs/images/blue-brick.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
+    background-repeat: no-repeat;
 }
 
 html.alt {
@@ -56,6 +55,7 @@ ul {
 main {
     margin: 0 auto;
 }
+
 .landing {
     background-color: var(--quickbite-gold);
     margin: 0 auto;
@@ -73,12 +73,12 @@ main {
     height: 100vh;
     padding: 0;
     scroll-behavior: smooth;
-    background-image: url("../images-and-svgs/svgs/logos/QuickBite-logo-red-no-fill-whiteteeth.svg");
+    /* background-image: url("../images-and-svgs/svgs/logos/QuickBite-logo-red-no-fill-whiteteeth.svg");
     background-size: min(70%, 60vh, 700px) auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
 }
 
 .content {
@@ -95,6 +95,19 @@ h1 {
     margin: 3rem auto 2rem auto;
 }
 
+
+
+#hero-image {
+    width: 70vw;
+    max-width: 700px;
+    padding: 5vh 0 0 0;
+    position: fixed;
+    top: calc(50% - (min(70vw, 700px)/2));
+    left: calc(50% - (min(70vw, 700px)/2));
+    right: 50%;
+    z-index: 1;
+}
+
 #welcome-section h1 {
     font-family: 'Baloo 2', cursive;
     font-size: min(3.5vh, 10vw);
@@ -105,7 +118,10 @@ h1 {
 
 #welcome-text {
     padding: 75vh 3vw 0 3vw;
+    position: relative;
+    z-index: 2;
 }
+
 
 #text-and-button {
     background-color: transparent;
@@ -145,6 +161,7 @@ nav {
     width: 100%;
     align-items: center;
     border-bottom:  1px solid rgba(255, 255, 255, 0.5);
+    z-index: 3;
 }
 
 nav.alt {
@@ -354,9 +371,19 @@ nav.alt #nav-bar li p.active {
     color: var(--quickbite-red)
 }
 
+#restaurant-info-container {
+     position: relative;
+    z-index: 2;
+    background-color: #e8574d;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 #restaurant-info {
+    width: 90%;
     font-size: 1rem;
     padding-top: 5rem;
+   
 }
 
 h3 .logo-text {
@@ -385,7 +412,8 @@ p .logo-text {
 }
 
 .non-menu li {
-    margin: 2.5rem auto 3.5rem auto;
+    padding: 2.5rem 0 3.5rem 0;
+    margin: 0 auto;
 }
 
 .non-menu h2 {
@@ -406,12 +434,15 @@ p .logo-text {
 }
 
 .continue-prompt {
-    margin: 3rem;
+    padding: 3rem;
     text-align: center;
+    background-color: var(--quickbite-red);
+    position: relative;
+    z-index: 2;
 }
 
 .continue-prompt h1 {
-    margin-bottom: 1rem;
+    margin: 0;
 }
 
 footer {
@@ -419,6 +450,8 @@ footer {
     background-color: var(--quickbite-gold);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     padding: 0 1.2rem;
+    position: relative;
+    z-index: 2;
 }
 
 footer.alt {
