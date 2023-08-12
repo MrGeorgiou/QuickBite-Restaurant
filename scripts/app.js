@@ -99,13 +99,13 @@ subMenuArrow.addEventListener("click", toggleSubMenu);
 
 //PARALLAX EFFECT 
 
-const heroImage = document.getElementById("hero-image");
-console.log(heroImage);
+// const heroImage = document.getElementById("hero-image");
+// console.log(heroImage);
 
-function positionFixedEffect(element) {
-    const value = window.scrollY;
-element.style.top = value * 0.999 + "px";
-}
+// function positionFixedEffect(element) {
+//     const value = window.scrollY;
+// element.style.top = value * 0.999 + "px";
+// }
 
 
 //DISPLAY LOGO
@@ -120,7 +120,7 @@ function displayLogo() {
 }
 
 function onScroll() {
-    positionFixedEffect(heroImage);
+    // positionFixedEffect(heroImage);
     displayLogo();
 }
 
