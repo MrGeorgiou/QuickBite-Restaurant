@@ -13,7 +13,6 @@
 #lake-welcome {
     scroll-behavior: smooth;
     background-image: url("../images-and-svgs/images/lake-image.jpg");
-   
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
