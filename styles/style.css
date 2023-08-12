@@ -68,6 +68,12 @@ main {
     height: 100vh;
     padding: 0;
     scroll-behavior: smooth;
+    background-image: url("../images-and-svgs/svgs/logos/QuickBite-logo-red-no-fill-whiteteeth.svg");
+    background-repeat: no-repeat;
+    background-size: min(70%, 60vh, 700px) auto;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .content {
@@ -76,14 +82,14 @@ main {
     max-width: 1000px;
 }
 
-#hero-image {
+/* #hero-image {
     display: block;
     margin: 0 auto;
     width: 80vw;
     max-height: 65vh;
     max-width: 1000px;
     padding: 5vh 0 5vh 0;
-}
+} */
 
 h1 {
     text-align: center;
@@ -99,8 +105,12 @@ h1 {
     font-weight: 600;
     color: white;
     margin: 0 auto 2vh auto;
-    padding: 0 3vw;
-    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1vh;
+    max-width: 45vh;
+}
+#welcome-text {
+    padding: 75vh 3vw 0 3vw;
 }
 
 .logo-text-main {
@@ -120,13 +130,14 @@ h1 {
 }
 
 nav {
+    /* background-color: transparent; */
     background-color: rgba(241, 158, 57, 0.9);
     /* background-color: rgba(255, 255, 255, 0.4); */
     display: flex;
     justify-content: space-between;
     height: 22vw;
     max-height: 8rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     align-items: center;
@@ -316,6 +327,8 @@ nav.alt #nav-bar li p.active {
 #nav-button-menu p.active {
     color: var(--quickbite-gold);
 }
+
+
 
 .active {
     color: var(--quickbite-red)

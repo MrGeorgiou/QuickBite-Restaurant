@@ -18,7 +18,7 @@
 }
 
 #welcome-text {
-    margin: 1rem auto;
+    margin: 10rem auto 1rem auto;
     padding: 1rem;
     background-color: var(--quickbite-red);
     max-width: 50%; 
