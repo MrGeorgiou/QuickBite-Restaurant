@@ -104,6 +104,7 @@ h1 {
     left: calc(50% - (min(70vw, 700px,70vh)/2));
     right: 50%;
     z-index: 1;
+    pointer-events: none;
 }
 
 #welcome-section h1 {
@@ -382,7 +383,7 @@ nav.alt #nav-bar li p.active {
     width: 90%;
     font-size: 1rem;
     padding-top: 5rem;
-   
+   position: relative;
 }
 
 h3 .logo-text {

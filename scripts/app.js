@@ -81,31 +81,31 @@ subMenuArrow.addEventListener("click", toggleSubMenu);
 
 
 //WELCOME TEXT HIGHLIGHT ON SCROLL AND LOGO APPEAR
-const welcomeText = document.getElementById("text-and-button");
-const logoNav = document.getElementById("logo-small");
+// const welcomeText = document.getElementById("text-and-button");
+// const logoNav = document.getElementById("logo-small");
 
-function highlightText(element) {
-    const value = window.scrollY;
+// function highlightText(element) {
+//     const value = window.scrollY;
 
-    if (value > 0) {
-        element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-    } else {
-        element.style.backgroundColor = "transparent";
-    }
-}
+//     if (value > 0) {
+//         element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+//     } else {
+//         element.style.backgroundColor = "transparent";
+//     }
+// }
 
-window.addEventListener("scroll", () => { highlightText(welcomeText) });
+// window.addEventListener("scroll", () => { highlightText(welcomeText) });
 
 
 //PARALLAX EFFECT 
 
-const heroImage = document.getElementById("hero-image");
-console.log(heroImage);
+// const heroImage = document.getElementById("hero-image");
+// console.log(heroImage);
 
-function positionFixedEffect(element) {
-    const value = window.scrollY;
-element.style.top = value + "px";
-}
+// function positionFixedEffect(element) {
+//     const value = window.scrollY;
+// element.style.top = value + "px";
+// }
 
 
 //DISPLAY LOGO
@@ -120,7 +120,7 @@ function displayLogo() {
 }
 
 function onScroll() {
-    positionFixedEffect(heroImage);
+    // positionFixedEffect(heroImage);
     displayLogo();
 }
 
