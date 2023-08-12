@@ -78,3 +78,19 @@ for (const subMenuListItem of subMenuListItems) {
 }
 
 subMenuArrow.addEventListener("click", toggleSubMenu);
+
+
+//WELCOME TEXT HIGHLIGHT ON SCROLL
+const welcomeText = document.getElementById("text-and-button");
+
+function highlightText(element) {
+    const value = window.scrollY;
+
+    if (value > 0) {
+        element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+    } else {
+        element.style.backgroundColor = "transparent";
+    }
+}
+
+window.addEventListener("scroll", () => { highlightText(welcomeText) });

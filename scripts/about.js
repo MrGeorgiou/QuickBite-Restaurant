@@ -1,29 +1,26 @@
-const navAboutPage = document.getElementById("about-pg-nav");
-const subMenuAboutPage = document.getElementById("about-sub-menu");
+// const navAboutPage = document.getElementById("about-pg-nav");
+// const subMenuAboutPage = document.getElementById("about-sub-menu");
 
-subMenuAboutPage.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+// subMenuAboutPage.style.backgroundColor = "transparent";
  
-if (window.scrollY) {
-    navBackgroundFadein();
-}
+// if (window.scrollY) {
+//     navBackgroundFadein();
+// }
 
-function navBackgroundFadein() {
-    // const navAboutPageOpacityMax = "rgba(241, 158, 57, 0.9)";
-    // const value = window.scrollY;
-    // const rgbaOpacityValue = value * 0.002;
+// function navBackgroundFadein() {
+// console.log(window.scrollY);
+//     if (window.scrollY < 1) {
+//         navAboutPage.style.backgroundColor = "transparent"
+//         subMenuAboutPage.style.backgroundColor = "transparent";
+//     } else {
+//         navAboutPage.style.backgroundColor = "rgba(241, 158, 57, 1)";
+//         subMenuAboutPage.style.backgroundColor = "rgba(241, 158, 57, 1)";
+//     }
+// }
 
-    // if (navAboutPage.style.backgroundColor !== navAboutPageOpacityMax  || rgbaOpacityValue < navAboutPageOpacityMax) {
-    //     subMenuAboutPage.style.backgroundColor = "rgba(241, 158, 57, " + rgbaOpacityValue + ")";
-    //     navAboutPage.style.backgroundColor = "rgba(241, 158, 57, " + rgbaOpacityValue + ")";
-    // }
-console.log(window.scrollY);
-    if (window.scrollY < 200) {
-        navAboutPage.style.backgroundColor = "transparent"
-        subMenuAboutPage.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
-    } else {
-        navAboutPage.style.backgroundColor = "rgba(241, 158, 57, 0.9)";
-        subMenuAboutPage.style.backgroundColor = "rgba(241, 158, 57, 0.9)";
-    }
-}
+// window.addEventListener("scroll", navBackgroundFadein);
 
-window.addEventListener("scroll", navBackgroundFadein);
+
+
+const greetingText = document.querySelector("div#text h1")
+window.addEventListener("scroll", () => { highlightText(greetingText) });

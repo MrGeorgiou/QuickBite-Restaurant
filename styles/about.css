@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    background-color: transparent;
+    background-color: var(--quickbite-gold);
 }
 
 #parallax-lake {
@@ -60,6 +60,11 @@ div#text {
 
 div#text h1 {
     font-size: 3.5vh;
+    background-color: transparent;
+    border-radius: 1vh;
+    max-width: 45vh;
+    transition: background-color 0.25s ease-in-out;
+    margin: 0 auto;
 }
 
 div#text p {

@@ -11,14 +11,16 @@
     width: 100%;
     min-height: 15px;
     min-width: 20px;
-    background-color: var(--quickbite-gold);
+    background-color: transparent;
     border: 2px solid var(--quickbite-red);
     border-radius: 4px;
     transition: background-color 0.5s;
 }
 
 .button.responsive {
-    margin: 3vh auto;
+    margin: 1rem auto;
+    stroke: #e8574d;
+    border: 2px solid white;
 }
 
 .button:hover {
@@ -26,6 +28,10 @@
     background-color: rgb(220, 146, 56);
 }
 
+
+.button.responsive:hover {
+    background-color: rgba(255, 255, 255, 0.5)
+}
 
 .side-button-container {
     display: inline-block;

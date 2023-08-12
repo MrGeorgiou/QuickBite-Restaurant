@@ -82,15 +82,6 @@ main {
     max-width: 1000px;
 }
 
-/* #hero-image {
-    display: block;
-    margin: 0 auto;
-    width: 80vw;
-    max-height: 65vh;
-    max-width: 1000px;
-    padding: 5vh 0 5vh 0;
-} */
-
 h1 {
     text-align: center;
     color: white;
@@ -104,13 +95,20 @@ h1 {
     font-size: 3.5vh;
     font-weight: 600;
     color: white;
-    margin: 0 auto 2vh auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 1vh;
-    max-width: 45vh;
+    margin: 0 auto;
 }
+
 #welcome-text {
     padding: 75vh 3vw 0 3vw;
+}
+
+#text-and-button {
+    background-color: transparent;
+    border-radius: 1vh;
+    max-width: 45vh;
+    transition: background-color 0.25s ease-in-out;
+    height: 17vh;
+    margin: 0 auto;
 }
 
 .logo-text-main {
@@ -131,12 +129,12 @@ h1 {
 
 nav {
     /* background-color: transparent; */
-    background-color: rgba(241, 158, 57, 0.9);
+    background-color: rgba(241, 158, 57, 1);
     /* background-color: rgba(255, 255, 255, 0.4); */
     display: flex;
     justify-content: space-between;
     height: 22vw;
-    max-height: 8rem;
+    max-height: 6rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -145,11 +143,11 @@ nav {
 }
 
 nav.alt {
-    background-color: rgba(232, 87, 77, 0.9);
+    background-color: rgba(232, 87, 77, 1);
 }
 
 nav.alt #nav-bar li .sub-menu {
-    background-color: rgba(232, 87, 77, 0.9);
+    background-color: rgba(232, 87, 77, 1);
 }
 
 nav.alt #nav-bar li p:hover {
@@ -167,8 +165,9 @@ nav.alt #nav-bar li p.active {
 
 #logo-small {
     opacity: 1;
-    height: 6rem;
-    margin: 1rem 1rem 1rem 2rem;
+    max-width: 5rem;
+    width: 18vw;
+    margin: 1rem;
 }
 
 #nav-button {
@@ -225,8 +224,6 @@ nav.alt #nav-bar li p.active {
     width: 1.5rem;
 }
 
-.sub-menu-title-wrapper img
-
 #nav-bar li p img {
     height: 1.5rem;
 }
@@ -238,7 +235,7 @@ nav.alt #nav-bar li p.active {
     margin: 0;
     padding: 1rem 0 1rem 0;
     display: none;
-    background-color: rgba(241, 158, 57, 0.9);
+    background-color: rgba(241, 158, 57, 1);
 }
 
 #nav-bar li .sub-menu li {
@@ -327,8 +324,6 @@ nav.alt #nav-bar li p.active {
 #nav-button-menu p.active {
     color: var(--quickbite-gold);
 }
-
-
 
 .active {
     color: var(--quickbite-red)
@@ -443,17 +438,6 @@ footer.alt {
 #portfolio-link img {
     height: 1.5rem;
     margin: 0;
-}
-
-@media (max-width: 1250px) {
-    /* #nav-bar {
-        font-size: 5vw;
-    } */
-
-    #logo-small {
-        max-height: 20vw;
-        margin: 1rem 1rem 1rem 2.5vw;
-    }
 }
 
 @media (max-width: 700px) {
