@@ -92,7 +92,7 @@ h1 {
 
 #welcome-section h1 {
     font-family: 'Baloo 2', cursive;
-    font-size: 3.5vh;
+    font-size: min(3.5vh, 10vw);
     font-weight: 600;
     color: white;
     margin: 0 auto;
@@ -107,7 +107,7 @@ h1 {
     border-radius: 1vh;
     max-width: 45vh;
     transition: background-color 0.25s ease-in-out;
-    height: 17vh;
+    height: min(17vh, 55vw);
     margin: 0 auto;
 }
 
