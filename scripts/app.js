@@ -80,8 +80,9 @@ for (const subMenuListItem of subMenuListItems) {
 subMenuArrow.addEventListener("click", toggleSubMenu);
 
 
-//WELCOME TEXT HIGHLIGHT ON SCROLL
+//WELCOME TEXT HIGHLIGHT ON SCROLL AND LOGO APPEAR
 const welcomeText = document.getElementById("text-and-button");
+const logoNav = document.getElementById("logo-small");
 
 function highlightText(element) {
     const value = window.scrollY;
