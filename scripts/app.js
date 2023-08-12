@@ -95,3 +95,15 @@ function highlightText(element) {
 }
 
 window.addEventListener("scroll", () => { highlightText(welcomeText) });
+
+//PARALLAX EFFECT 
+
+const heroImage = document.getElementById("hero-image");
+console.log(heroImage);
+
+function positionFixedEffect(element) {
+    const value = window.scrollY;
+element.style.top = value + "px";
+}
+
+window.addEventListener("scroll", () => {positionFixedEffect(heroImage)})

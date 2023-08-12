@@ -22,6 +22,7 @@
 html {
 background-color: var(--quickbite-red);
 padding: 0;
+scroll-behavior: smooth;
 }
 
 html.background-image {
@@ -40,6 +41,7 @@ body {
     color: white;
     font-family: 'Baloo 2', cursive;
     font-weight: 600;
+    background-attachment: fixed;
 }
 
 a {
@@ -54,6 +56,7 @@ ul {
 
 main {
     margin: 0 auto;
+    background-attachment: fixed;
 }
 
 .landing {
@@ -63,6 +66,7 @@ main {
     width: 100%;
     height: 100vh;
     padding: 0;
+    background-attachment: fixed;
 }
 
 #welcome-section { 
@@ -72,13 +76,8 @@ main {
     width: 100%;
     height: 100vh;
     padding: 0;
-    scroll-behavior: smooth;
-    /* background-image: url("../images-and-svgs/svgs/logos/QuickBite-logo-red-no-fill-whiteteeth.svg");
-    background-size: min(70%, 60vh, 700px) auto;
+    overflow: hidden;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
 }
 
 .content {
@@ -95,14 +94,12 @@ h1 {
     margin: 3rem auto 2rem auto;
 }
 
-
-
 #hero-image {
     width: 70vw;
     max-width: 700px;
-    padding: 5vh 0 0 0;
-    position: fixed;
-    top: calc(50% - (min(70vw, 700px)/2));
+    padding: 20vh 0 0 0;
+    position: absolute;
+    top: 0;
     left: calc(50% - (min(70vw, 700px)/2));
     right: 50%;
     z-index: 1;
