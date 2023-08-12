@@ -77,7 +77,7 @@ main {
     height: 100vh;
     padding: 0;
     overflow: hidden;
-    background-attachment: fixed;
+    background-position: scroll;
 }
 
 .content {
@@ -95,12 +95,12 @@ h1 {
 }
 
 #hero-image {
-    width: 70vw;
+    width: min(70vw, 70vh);
     max-width: 700px;
-    padding: 20vh 0 0 0;
+    padding: 25vh 0 0 0;
     position: absolute;
     top: 0;
-    left: calc(50% - (min(70vw, 700px)/2));
+    left: calc(50% - (min(70vw, 700px,70vh)/2));
     right: 50%;
     z-index: 1;
 }
