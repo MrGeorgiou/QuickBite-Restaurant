@@ -2,64 +2,41 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    background-color: var(--quickbite-gold);
+    background-color: transparent;
+    transition: background-color 0.25s ease-in-out;
 }
 
-#parallax-lake {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
+#about-sub-menu.sub-menu.about-pg{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#lake-welcome {
+    scroll-behavior: smooth;
+    background-image: url("../images-and-svgs/images/lake-image.jpg");
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.parallax-item {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    pointer-events: none;
-}
-
-#filter { 
-    z-index: 8;
-    background-color: black;
-    opacity: 0.4;
-    width: 100%;
-    height: 100%;
-}
-
-#middle {
-    z-index: 6;
-}
-
-#foreground {
-    z-index: 7;
-    bottom: 0;
-}
-
-#background {
-    z-index: 4;
-    top: 0;
-}
-
-#foreground-2 {
-    z-index: 3;
+#lake-text {
+    padding: 45vh 3vw 0 3vw;
 }
 
 div#text {
     position: relative;
-    z-index: 9;
-    padding: 0 1rem;
-    margin: 30vh auto 0 auto;
+    z-index: 9;  
+    background-color: transparent;
+    border-radius: 1vh;
+    max-width: 45vh;
+    transition: background-color 0.25s ease-in-out;
+    margin: 0 auto 0 auto;
+    height: min(11vh, 50vw);
 }
 
 div#text h1 {
-    font-size: 3.5vh;
+    font-size: min(3.5vh, 11vw);
     background-color: transparent;
     border-radius: 1vh;
     max-width: 45vh;
@@ -71,31 +48,9 @@ div#text p {
     font-size: 1rem;
 }
 
-p#scroll-prompt {
-    animation-name: slow-fade;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes slow-fade {
-    0% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-}
-
-
-#main {
-    z-index: 3;
-}
-
 #location {
     text-align: center;
+    padding-top: 5rem;
 }
 
 #address ul {
