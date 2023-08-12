@@ -25,7 +25,7 @@ padding: 0;
 }
 
 html.background-image {
-    background-image: url("../images-and-svgs/images/yellow-sky.jpg");
+    background-image: url("../images-and-svgs/images/blue-brick.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -130,6 +130,7 @@ nav {
     top: 0;
     width: 100%;
     align-items: center;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);
 }
 
 nav.alt {
@@ -382,7 +383,7 @@ p .logo-text {
 footer {
     height: 10.5rem;
     background-color: var(--quickbite-gold);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
     padding: 0 1.2rem;
 }
 
