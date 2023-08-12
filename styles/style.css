@@ -74,10 +74,10 @@ main {
     padding: 0;
     scroll-behavior: smooth;
     background-image: url("../images-and-svgs/svgs/logos/QuickBite-logo-red-no-fill-whiteteeth.svg");
-    background-repeat: no-repeat;
     background-size: min(70%, 60vh, 700px) auto;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
