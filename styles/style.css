@@ -20,9 +20,9 @@
 }
 
 html {
-background-color: var(--quickbite-red);
-padding: 0;
-scroll-behavior: smooth;
+    background-color: var(--quickbite-red);
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 html.background-image {
@@ -108,7 +108,6 @@ h1 {
     padding: 25vh 0 0 0;
     position: relative;
     margin: 0 auto;
-    z-index: 1;
     pointer-events: none;
 }
 
@@ -123,7 +122,6 @@ h1 {
 #welcome-text {
     padding: 70vh 3vw 0 3vw;
     position: relative;
-    z-index: 2;
 }
 
 
@@ -313,7 +311,6 @@ nav.alt #nav-bar li p.active {
     margin: 0;
     display: none;
     height: 100vh;
-    z-index: 10;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -380,8 +377,7 @@ nav.alt #nav-bar li p.active {
 }
 
 #restaurant-info-container {
-     position: relative;
-    z-index: 2;
+    position: relative;
     background-color: #e8574d;
     width: 100%;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -446,7 +442,6 @@ p .logo-text {
     text-align: center;
     background-color: var(--quickbite-red);
     position: relative;
-    z-index: 2;
 }
 
 .continue-prompt h1 {
@@ -459,7 +454,6 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     padding: 0 1.2rem;
     position: relative;
-    z-index: 2;
 }
 
 footer.alt {
