@@ -313,6 +313,7 @@ nav.alt #nav-bar li p.active {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    z-index: 10;
 }
 
 #nav-button-menu li .sub-menu {
