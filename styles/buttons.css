@@ -1,8 +1,10 @@
 .down-button-container {
     display: block;
     margin: 0 auto;
-    height: 2vh;
-    width: 3vh;
+    height: min(2.5vh, 3.5vw);
+    max-height: 1.5rem;
+    width: min(4vh, 5vw);
+    max-width: 2rem;
 }
 
 .button {
@@ -18,7 +20,7 @@
 }
 
 .button.responsive {
-    margin: 1rem auto;
+    margin: 1vh auto;
     stroke: #e8574d;
     border: 2px solid white;
 }

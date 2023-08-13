@@ -81,20 +81,20 @@ subMenuArrow.addEventListener("click", toggleSubMenu);
 
 
 //WELCOME TEXT HIGHLIGHT ON SCROLL AND LOGO APPEAR
-// const welcomeText = document.getElementById("text-and-button");
-// const logoNav = document.getElementById("logo-small");
+const welcomeText = document.getElementById("text-and-button");
+const logoNav = document.getElementById("logo-small");
 
-// function highlightText(element) {
-//     const value = window.scrollY;
+function highlightText(element) {
+    const value = window.scrollY;
 
-//     if (value > 0) {
-//         element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-//     } else {
-//         element.style.backgroundColor = "transparent";
-//     }
-// }
+    if (value > 0) {
+        element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+    } else {
+        element.style.backgroundColor = "transparent";
+    }
+}
 
-// window.addEventListener("scroll", () => { highlightText(welcomeText) });
+window.addEventListener("scroll", () => { highlightText(welcomeText) });
 
 
 //PARALLAX EFFECT 
@@ -109,19 +109,19 @@ subMenuArrow.addEventListener("click", toggleSubMenu);
 
 
 //DISPLAY LOGO
-const navLogo = document.getElementById("logo-small");
+// const navLogo = document.getElementById("logo-small");
 
-function displayLogo() {
-    if(window.scrollY > 1) {
-        navLogo.style.display = "block";
-    } else {
-        navLogo.style.display = "none";
-    }
-}
+// function displayLogo() {
+//     if(window.scrollY > 1) {
+//         navLogo.style.display = "block";
+//     } else {
+//         navLogo.style.display = "none";
+//     }
+// }
 
-function onScroll() {
-    // positionFixedEffect(heroImage);
-    displayLogo();
-}
+// function onScroll() {
+//     // positionFixedEffect(heroImage);
+//     displayLogo();
+// }
 
-window.addEventListener("scroll", onScroll)
+// window.addEventListener("scroll", onScroll)

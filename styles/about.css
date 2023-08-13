@@ -13,7 +13,7 @@
 #lake-welcome {
     scroll-behavior: smooth;
     background-image: url("../images-and-svgs/images/lake-image.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
@@ -32,7 +32,8 @@ div#text {
     max-width: 45vh;
     transition: background-color 0.25s ease-in-out;
     margin: 0 auto 0 auto;
-    height: min(11vh, 50vw);
+    height: min(11vh, 36vw);
+    max-height: 20rem;
 }
 
 div#text h1 {
@@ -96,4 +97,10 @@ table {
         padding-left: 1rem;
     }
     
+}
+
+@media (max-width: 700px) {
+    #lake-welcome {
+        background-attachment: scroll ;
+    }
 }
