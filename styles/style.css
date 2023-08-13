@@ -126,16 +126,14 @@ h1 {
 
 
 #text-and-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center; 
     background-color: transparent;
     border-radius: 1vh;
     max-width: 45vh;
     transition: background-color 0.25s ease-in-out;
     margin: 0 auto;
-    height: 22vh;
+    height: min(17vh, 48vw);
+    max-height: 25rem;
 }
 
 .logo-text-main {
