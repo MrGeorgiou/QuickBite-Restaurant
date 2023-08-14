@@ -51,9 +51,12 @@ background-color: rgb(197, 131, 50);
     margin: 3rem 0;
 }
 
+#contact-list {
+    max-width: 400px;
+}
+
 #contact-list li {
-    max-width: 25rem;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     display: flex;
     align-items: center;
     justify-content: space-between;

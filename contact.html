@@ -111,13 +111,13 @@
                 <ul>
                     <li id="basics">
                         <h3>The Basics</h3>
-                        <p>The goal of this project was to use the basics of front-end development and to use them well.</p>
-                        <p>
-                            There is alot of HTML in this project. The indentation in the code is neat and tidy, the HTML itself is properly applied and the code is readable. A broad variety of html elements and techniques were used in this project, the menu page uses multiple heading types and nested unordered lists to create a complex yet easily readable menu. Grids and tables were also used through-out the various pages.
+                        <p>The goal of this project was to use the basics of front-end development and to use them well.
+                            There is alot of HTML in this project. The indentation in the code is neat and tidy, the HTML itself is properly applied and the code is readable. A broad variety of html elements and techniques were used in this project, the menu page uses multiple heading types and nested unordered lists to create a complex yet easily readable menu. Grids and tables were also used through-out the various pages. 
+                            The CSS in this project is split across multiple files making it easier to maintain and make changes too. 
+                            The images and svgs are subdivided to make them more managable. 
+                            The JavaScript is simple yet effective, it prevents the page content from displaying until loaded, it is used to create the parallax effect on the About-us page, to display the navigation menu on smaller screens,to copy text to the clipboard at the end of this page and to highlight the welcome message on the "home" and "about-us" pages. 
                         </p>
-                        <p>The CSS in this project is split across multiple files making it easier to maintain and make changes too.</p>
-                        <p>The images and svgs are subdivided to make them more managable.</p>
-                        <p>The JavaScript is simple yet effective, it prevents the page content from displaying until loaded, it is used to create the parallax effect on the About-us page, to display the navigation menu on smaller screens and to copy text to the clipboard at the end of this page.</p>
+                        
                     </li>
                     <li id="design">
                         <h3>Design</h3>
@@ -168,16 +168,20 @@
                             <li>
                                 <p>
                                     I had so much fun designing the logo, that I started looking for another challenge. I had some familiarity with parallax effects before this project but had never built one myself. I found an image I had taken back in 2020 of a lake in my area and decided it was exactly what I was looking for.
-                                    I isolated the different aspects of the image by drawing paths in Adobe Illustrator, then I used an online tutorial to show me how to create the effect. I used JavaScript to identify the scroll position on the page and updated the position of each aspect of the image relative to that scroll postion. Below I have attached the original image.
+                                    I isolated the different aspects of the image by drawing paths in Adobe Illustrator, then I used an online tutorial to show me how to create the effect. I used JavaScript to identify the scroll position on the page and updated the position of each aspect of the image relative to that scroll postion, unfortunately this didn't work out. 
+                                    After loading the screen on my mobile the effect was jerky and unreliable. So i tried a different approach using a background-image and setting the background-attachment property to fixed, this created a nice parallax scrolling effect but unfortunately once I tried to view the page on my mobile it was unreliable. 
+                                    I set out again to redo the image making the image it-self fixed, assigning z-indexs to all the elements on the page and again was happy with the result.. 
+                                    until I loaded the page on my mobile phone. It turns out safari/ios has reliability issues with fixed positioning, and mobile browsers render javascript after the scroll has stopped. 
+                                    I compromised using the background-attachment fixed method i have a parallax scroll effect that works on browsers and a media query which switches the background-attachment to scroll for smaller screens,
+                                    so unfortunately if you are viewing this site on a mobile device you are missing the effect.
                                 </p>
-                                <img id="lake-image" src="images-and-svgs\images\lake-image.jpg">
                             </li>
                         </ul>
                     </li>
                     <li id="responsivity">
                         <h3>Responsivity</h3>
                         <p>The final goal of this project was to create a web-site that renders perfectly and looks the same on any screen-size with as little additional code as possible.
-                            To achieve this I explored using different measurement types in css to change the way elements scaled, combined with svgs for the logos and a couple of media queries to tie up the loose ends. I'm really happy with the end result, I've learned alot and now want to refactor my other projects to bring them up to this level. 
+                            To achieve this I explored using different measurement types in css to change the way elements scaled, combined with svgs for the logos and a couple of media queries to tie up the loose ends. I'm really happy with the end result, I've learned alot and now face the challenge of refactoring my other projects to bring them up to this standard. 
                         </p>
                     </li>
                 </ul>   

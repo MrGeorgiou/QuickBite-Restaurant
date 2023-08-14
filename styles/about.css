@@ -21,7 +21,7 @@
 }
 
 #lake-text {
-    padding: 45vh 3vw 0 3vw;
+    padding: 50vh 3vw 0 3vw;
 }
 
 div#text {
@@ -51,7 +51,7 @@ div#text p {
 
 #location {
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 #address ul {
@@ -68,7 +68,7 @@ div#text p {
 }
 
  #opening-hours {
-   margin: 3rem auto;
+   margin: 2rem auto;
 }
 
 table {
