@@ -74,7 +74,7 @@ div#text p {
 table {
     border: 3px solid var(--quickbite-gold);
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 17rem;
     border-collapse: collapse;
 }
