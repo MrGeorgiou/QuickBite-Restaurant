@@ -83,7 +83,6 @@ main {
     background-size: min(70%, 60vh, 700px) auto;
     background-attachment: fixed;
     background-position: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .content {
@@ -120,7 +119,7 @@ h1 {
 }
 
 #welcome-text {
-    padding: 70vh 3vw 0 3vw;
+    padding: 65vh 3vw 0 3vw;
     position: relative;
 }
 
@@ -312,7 +311,22 @@ nav.alt #nav-bar li p.active {
     overflow-x: hidden;
     overflow-y: auto;
     z-index: 10;
+    animation: 0.5s ease-in 0s 1 slideInFromTop;
 }
+
+@keyframes slideInFromBottom{
+    0%  {
+        transform: translateY(200%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#nav-button-menu ul {
+    animation: 2s ease 0s 1 slideInFromTop;
+}
+
 
 #nav-button-menu li .sub-menu {
     display: none;
@@ -353,6 +367,11 @@ nav.alt #nav-bar li p.active {
     height: 5vh;
     width: 5vh;
     margin-left: 0.5vh;
+}
+
+#nav-button-menu li .sub-menu {
+    background-color: var(--quickbite-red);
+    border: none;
 }
 
 #nav-button-menu li .sub-menu li p {
