@@ -402,7 +402,7 @@ nav.alt #nav-bar li p.active {
 }
 
 #restaurant-info {
-    width: 90%;
+    max-width: 90%;
     font-size: 1rem;
     padding-top: 6rem;
    position: relative;
