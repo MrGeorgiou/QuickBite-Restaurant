@@ -324,7 +324,7 @@ nav.alt #nav-bar li p.active {
 }
 
 #nav-button-menu ul {
-    animation: 2s ease 0s 1 slideInFromTop;
+    animation: 1.75s ease 0s 1 slideInFromTop;
 }
 
 
@@ -372,6 +372,7 @@ nav.alt #nav-bar li p.active {
 #nav-button-menu li .sub-menu {
     background-color: var(--quickbite-red);
     border: none;
+    animation: none;
 }
 
 #nav-button-menu li .sub-menu li p {
@@ -532,4 +533,10 @@ footer.alt {
     #welcome-section {
         background-attachment: scroll ;
     }
+}
+
+
+#down-button-link p {
+    display: none;
+    text-align: center;
 }

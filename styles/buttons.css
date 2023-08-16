@@ -2,10 +2,14 @@
     display: block;
     margin: 0 auto;
     height: min(2.5vh, 3.5vw);
-    max-height: 1.5rem;
+    min-height: 1.5rem;
+    max-height: 1.5rem;;
     width: min(4vh, 5vw);
-    max-width: 2rem;
+    min-width: 3rem;
+    max-width: 3rem;
 }
+
+/* sort out above properties*** */
 
 .button {
     display: block;
