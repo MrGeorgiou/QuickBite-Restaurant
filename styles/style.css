@@ -534,9 +534,3 @@ footer.alt {
         background-attachment: scroll ;
     }
 }
-
-
-#down-button-link p {
-    display: none;
-    text-align: center;
-}

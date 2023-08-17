@@ -1,13 +1,21 @@
 .down-button-container {
     display: block;
     margin: 0 auto;
-    height: min(2.5vh, 3.5vw);
-    min-height: 1.5rem;
-    max-height: 1.5rem;;
-    width: min(4vh, 5vw);
-    min-width: 3rem;
-    max-width: 3rem;
+    height: 1.1rem;
+    width: 2.3rem;
+    text-align: center;
 }
+
+#down-button-link p {
+    display: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0;
+}
+
 
 /* sort out above properties*** */
 
@@ -24,7 +32,7 @@
 }
 
 .button.responsive {
-    margin: 1vh auto;
+    margin: 1rem auto;
     stroke: #e8574d;
     border: 2px solid white;
 }
@@ -32,11 +40,6 @@
 .button:hover {
     cursor: pointer;
     background-color: rgb(220, 146, 56);
-}
-
-
-.button.responsive:hover {
-    background-color: rgba(255, 255, 255, 0.5)
 }
 
 .side-button-container {
@@ -69,3 +72,5 @@
     border: 2px solid var(--quickbite-red);
     background-color: var(--quickbite-gold);
 }
+
+
