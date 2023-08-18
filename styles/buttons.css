@@ -1,20 +1,27 @@
 .down-button-container {
     display: block;
     margin: 0.5vh auto;
-    height: 1.1rem;
-    width: 2.3rem;
+    height: 3rem;
+    width: 6rem;
     text-align: center;
+}
+
+
+#down-button-link {
+    display: inline-block;
+    width: 6rem;
+    height: 3rem;
 }
 
 #down-button-link p {
     display: none;
     text-align: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    font-size: 0.9rem;
+    height: 3rem;
+    font-size: min(6vw,0.9rem);
     padding: 0;
+    margin: 1rem auto;
 }
+
 
 
 /* sort out above properties*** */
@@ -34,12 +41,18 @@
 .button.responsive {
     margin: 0 auto;
     stroke: #e8574d;
-    border: 2px solid white;
+    border: none;
+   width: 5rem;
 }
 
 .button:hover {
     cursor: pointer;
     background-color: rgb(220, 146, 56);
+
+}
+
+.button.responsive:hover {
+    background-color: transparent;
 }
 
 .side-button-container {
