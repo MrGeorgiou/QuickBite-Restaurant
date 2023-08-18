@@ -1,6 +1,6 @@
 .down-button-container {
     display: block;
-    margin: 0 auto;
+    margin: 0.5vh auto;
     height: 1.1rem;
     width: 2.3rem;
     text-align: center;
@@ -32,7 +32,7 @@
 }
 
 .button.responsive {
-    margin: 1rem auto;
+    margin: 0 auto;
     stroke: #e8574d;
     border: 2px solid white;
 }

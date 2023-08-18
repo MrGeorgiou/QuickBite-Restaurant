@@ -6,7 +6,6 @@ if (window.scrollY) {
 }
 
 function navBackgroundFadein() {
-console.log(window.scrollY);
     if (window.scrollY < 1) {
         navAboutPage.style.backgroundColor = "transparent"
         subMenuAboutPage.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
@@ -19,6 +18,6 @@ console.log(window.scrollY);
 window.addEventListener("scroll", navBackgroundFadein);
 
 
-
+//WELCOME TEXT HIGHLIGHT ON SCROLL
 const greetingText = document.querySelector("div#text")
 window.addEventListener("scroll", () => { highlightText(greetingText) });

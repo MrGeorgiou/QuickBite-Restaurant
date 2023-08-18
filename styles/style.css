@@ -19,6 +19,11 @@
     background: rgb(255, 255, 255);
 }
 
+body, html {
+    scroll-padding-top: 100px;  
+}
+/* above selectors/property adjusts scroll position to accommadate fixed navbar */
+
 html {
     background-color: var(--quickbite-red);
     padding: 0;
@@ -405,7 +410,7 @@ nav.alt #nav-bar li p.active {
 #restaurant-info {
     max-width: 90%;
     font-size: 1rem;
-    padding-top: 6rem;
+    padding-top: 1rem;
    position: relative;
 }
 

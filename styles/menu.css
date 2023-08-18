@@ -40,13 +40,13 @@
     margin: auto 1rem;
 }
 
-#category-welcome-text {
+.category-welcome-text {
     display: flex;
     align-items: center; 
     justify-content: center;
 }
 
-#category-welcome-text img {
+.category-welcome-text img {
     height: 1.5rem;
 }
 

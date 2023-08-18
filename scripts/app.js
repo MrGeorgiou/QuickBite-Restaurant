@@ -8,23 +8,6 @@ function displayPage() {
 
 document.addEventListener("DOMContentLoaded", displayPage);
 
-
-//PAGE JUMP/FIXED NAV BAR PROBLEM - FIX 
-function fixPagePosition() {
-    window.scrollBy(0, -150);
-}
-
-window.addEventListener("hashchange", fixPagePosition)
-
-function onLoad() {
-    if(window.location.hash) {
-        fixPagePosition();
-    }
-}
-
-window.onload = onLoad 
-
-
 //NAVIGATION MENU
 const navBar = document.querySelector("nav");
 const navMenu = document.getElementById("nav-button-menu");
@@ -80,34 +63,6 @@ for (const subMenuListItem of subMenuListItems) {
 subMenuArrow.addEventListener("click", toggleSubMenu);
 
 
-//WELCOME TEXT HIGHLIGHT ON SCROLL AND LOGO APPEAR
-const welcomeText = document.getElementById("text-and-button");
-const logoNav = document.getElementById("logo-small");
-
-function highlightText(element) {
-    const value = window.scrollY;
-
-    if (value > 0) {
-        element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-    } else {
-        element.style.backgroundColor = "transparent";
-    }
-}
-
-window.addEventListener("scroll", () => { highlightText(welcomeText) });
-
-
-//PARALLAX EFFECT 
-
-// const heroImage = document.getElementById("hero-image");
-// console.log(heroImage);
-
-// function positionFixedEffect(element) {
-//     const value = window.scrollY;
-// element.style.top = value * 0.999 + "px";
-// }
-
-
 //DISPLAY LOGO
 // const navLogo = document.getElementById("logo-small");
 
@@ -126,23 +81,13 @@ window.addEventListener("scroll", () => { highlightText(welcomeText) });
 
 // window.addEventListener("scroll", onScroll)
 
-//SCROLL BUTTON PROMPT
-const downButton = document.getElementById("down-button")
-const scrollPrompt = document.getElementById("scroll-prompt")
-const downButtonContainer = document.getElementById("down-button-container")
 
-function displayPrompt() {
-    downButton.style.display = "none";
-    scrollPrompt.style.display = "block";
+function highlightText(element) {
+    const value = window.scrollY;
+
+    if (value > 0) {
+        element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+    } else {
+        element.style.backgroundColor = "transparent";
+    }
 }
-
-function resetButton() {
-    scrollPrompt.style.display = "none";
-    downButton.style.display = "block";
-}
-
-
-console.log(downButtonContainer)
-downButtonContainer.addEventListener("mouseenter", displayPrompt)
-downButtonContainer.addEventListener("mouseleave", resetButton)
-
