@@ -91,3 +91,15 @@ function highlightText(element) {
         element.style.backgroundColor = "transparent";
     }
 }
+
+
+// SCROLL BUTTON PROMPT
+function displayPrompt(image, text) {
+    image.style.display = "none";
+    text.style.display = "block";
+}
+
+function resetButton(text, image) {
+    text.style.display = "none";
+    image.style.display = "block";
+}

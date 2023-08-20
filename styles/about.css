@@ -20,33 +20,8 @@
     background-repeat: no-repeat;
 }
 
-#lake-text {
+.welcome-text#lake-text {
     padding: 50vh 3vw 0 3vw;
-}
-
-div#text {
-    position: relative;
-    z-index: 9;  
-    background-color: transparent;
-    border-radius: 1vh;
-    max-width: 45vh;
-    transition: background-color 0.25s ease-in-out;
-    margin: 0 auto 0 auto;
-    height: min(11vh, 36vw);
-    max-height: 20rem;
-}
-
-div#text h1 {
-    font-size: min(3.5vh, 11vw);
-    background-color: transparent;
-    border-radius: 1vh;
-    max-width: 45vh;
-    transition: background-color 0.25s ease-in-out;
-    margin: 0 auto;
-}
-
-div#text p {
-    font-size: 1rem;
 }
 
 #location {

@@ -102,7 +102,6 @@ h1 {
     font-size: 2rem;
     font-weight: 600;
     padding: 0;
-    
     margin: 0 auto;
 }
 
@@ -115,28 +114,21 @@ h1 {
     pointer-events: none;
 }
 
-#welcome-section h1 {
+.welcome-text {
+    padding: 65vh 3vw 0 3vw;
+    position: relative;
+}
+
+.welcome-text h1 {
+    max-width: 500px;
+    background-color: transparent;
+    border-radius: 1vh;
+    transition: background-color 0.25s ease-in-out;
     font-family: 'Baloo 2', cursive;
     font-size: min(3.5vh, 10vw);
     font-weight: 600;
     color: white;
     margin: 0 auto;
-}
-
-#welcome-text {
-    padding: 65vh 3vw 0 3vw;
-    position: relative;
-}
-
-#text-and-button {
-    align-items: center; 
-    background-color: transparent;
-    border-radius: 1vh;
-    max-width: 45vh;
-    transition: background-color 0.25s ease-in-out;
-    margin: 0 auto;
-    height: min(17vh, 48vw);
-    max-height: 25rem;
 }
 
 .logo-text-main {
