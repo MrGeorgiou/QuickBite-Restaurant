@@ -85,7 +85,7 @@ subMenuArrow.addEventListener("click", toggleSubMenu);
 function highlightText(element) {
     const value = window.scrollY;
 
-    if (value > 0) {
+    if (value > 50) {
         element.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
     } else {
         element.style.backgroundColor = "transparent";

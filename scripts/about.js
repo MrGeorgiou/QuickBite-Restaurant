@@ -6,7 +6,7 @@ if (window.scrollY) {
 }
 
 function navBackgroundColor() {
-    if (window.scrollY < 1) {
+    if (window.scrollY < 50) {
         navAboutPage.style.backgroundColor = "transparent"
         subMenuAboutPage.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
     } else {

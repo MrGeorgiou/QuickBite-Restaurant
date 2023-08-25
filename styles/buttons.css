@@ -60,19 +60,23 @@
 }
 
 .side-button-container {
-    display: inline-block;
-    margin: 0 auto 1rem auto;
-    height: 1.5rem;
-    width: 2rem;
-    background-color: var(--quickbite-red);
+    display: block;
+    margin: 0.5vh auto;
+    height: 3rem;
+    width: 6rem;
+    background-color: transparent;
     text-align: center;
+    /* position: absolute; */
+    /* bottom: 1rem;
+    left: calc(50% - 3rem);
+    right: calc(50% - 3rem); */
+    
 }
 
 .button.side {
     margin: 1rem auto;
     height: 100%;
     width: 100%;
-    border: 2px solid var(--quickbite-gold);
     background-color: var(--quickbite-red);
 }
 

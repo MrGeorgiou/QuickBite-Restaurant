@@ -321,7 +321,7 @@ nav.alt #nav-bar li p.active {
 }
 
 #nav-button-menu ul {
-    animation: 1.75s ease 0s 1 slideInFromTop;
+    animation: 1s ease 0s 1 slideInFromTop;
 }
 
 
@@ -334,6 +334,7 @@ nav.alt #nav-bar li p.active {
     margin: 5vh auto;
     height: 34px;
     width: 34px;
+    animation: 1s ease 0s 1 slideInFromTop;
 }
 
 #nav-menu-exit img:hover {
