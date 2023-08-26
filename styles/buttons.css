@@ -1,34 +1,38 @@
-.down-button-container {
+.button-container {
     display: block;
     margin: 0.5vh auto;
     height: 3rem;
     width: 6rem;
+    background-color: transparent;
     text-align: center;
+}
+
+.down.button-container {
     position: absolute;
     bottom: 1rem;
     left: calc(50% - 3rem);
     right: calc(50% - 3rem);
 }
 
-
-.down-button-link {
+.button-link {
     display: inline-block;
     width: 6rem;
     height: 3rem;
 }
 
-.down-button-link p {
+.button-link p {
     display: none;
     text-align: center;
     height: 3rem;
-    font-size: min(6vw,0.9rem);
+    font-size: min(6vw, 0.9rem);
     padding: 0;
     margin: 1rem auto;
 }
 
-
-
-/* sort out above properties*** */
+.button-link #continue-prompt {
+    color: var(--quickbite-gold);
+    font-size: min(6vw, 0.9rem);
+}
 
 .button {
     display: block;
@@ -37,61 +41,15 @@
     min-height: 15px;
     min-width: 20px;
     background-color: transparent;
-    border: 2px solid var(--quickbite-red);
-    border-radius: 4px;
     transition: background-color 0.5s;
-}
-
-.button.responsive {
     margin: 0 auto;
-    stroke: #e8574d;
-    border: none;
-   width: 5rem;
 }
 
-.button:hover {
-    cursor: pointer;
-    background-color: rgb(220, 146, 56);
-
-}
-
-.button.responsive:hover {
-    background-color: transparent;
-}
-
-.side-button-container {
-    display: block;
-    margin: 0.5vh auto;
-    height: 3rem;
-    width: 6rem;
-    background-color: transparent;
+.continue-button-link p {
+    display: none;
     text-align: center;
-    /* position: absolute; */
-    /* bottom: 1rem;
-    left: calc(50% - 3rem);
-    right: calc(50% - 3rem); */
-    
-}
-
-.button.side {
+    height: 3rem;
+    font-size: min(6vw,0.9rem);
+    padding: 0;
     margin: 1rem auto;
-    height: 100%;
-    width: 100%;
-    background-color: var(--quickbite-red);
 }
-
-.button.side:hover {
-    background-color: rgb(245, 91, 79);
-}
-
-
-.side-button-container.alt {
-    background-color: var(--quickbite-gold);
-}
-
-.button.side.alt {
-    border: 2px solid var(--quickbite-red);
-    background-color: var(--quickbite-gold);
-}
-
-
