@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&family=Grenze+Gotisch:wght@900&family=Merriweather+Sans:wght@400;600&family=Nunito&display=swap" rel="stylesheet">    
 
     <script src="scripts/app.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
 <body>
     <main>
         <nav class="alt">
@@ -340,9 +341,10 @@
             </ul>
             <div class="continue-prompt content" id="menu-continue-prompt">
                 <h1>Find out more about us!</h1>
-                <div class="side-button-container">
-                    <a href="about.html">
-                        <img class="button side" src="images-and-svgs\svgs\arrows\side-arrow.svg">
+                <div class="button-container side">
+                    <a class="button-link" href="about.html">
+                        <img id="side-button" class="button" src="images-and-svgs\svgs\arrows\side-arrow.svg">
+                        <p id="continue-prompt">CONTINUE</p>
                     </a>
                 </div>
             </div>

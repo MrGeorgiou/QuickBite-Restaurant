@@ -466,7 +466,7 @@ p .logo-text {
 }
 
 footer {
-    height: 10.5rem;
+    height: 12.5rem;
     background-color: var(--quickbite-gold);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     padding: 0 1.2rem;
@@ -477,6 +477,9 @@ footer.alt {
     background-color: var(--quickbite-red);
 }
 
+footer.alt #socialmedia-icons img:hover {
+    background-color: var(--quickbite-gold);
+}
 
 #socialmedia-icons {
     display: flex;
@@ -488,7 +491,14 @@ footer.alt {
 
 #socialmedia-icons img {
     height: 1.75rem;
-    margin: 0rem 0.5rem;
+    margin: 0rem 0.05rem;
+    background-color: transparent;
+    padding: 0.8rem;
+    border-radius: 20px;
+}
+
+#socialmedia-icons img:hover {
+    background-color: var(--quickbite-red);
 }
 
 #line-break {
@@ -530,5 +540,19 @@ footer.alt {
 
     #welcome-section {
         background-attachment: scroll ;
+    }
+}
+
+@media (max-width: 350px) {
+    #socialmedia-icons {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    #socialmedia-icons img {
+        height: 1.3rem;
+        padding: 0.5rem;
+        border-radius: 15px;
+
     }
 }
